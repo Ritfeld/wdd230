@@ -1,0 +1,32 @@
+body {
+    font-size: 16px;
+}
+
+header,
+main,
+footer {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: #bbb;
+}
+
+header img {
+    float: right;
+    width: 160px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+h1 {
+    color: seagreen;
+    text-align: center;
+}
