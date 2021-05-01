@@ -62,7 +62,6 @@ main {
 
 
 ul {
-  background-color: ;
   border-radius: 3px;
   padding: 20px 10px;
   list-style: none;
@@ -92,7 +91,6 @@ footer {
 footer a,
 nav a {
   font-size: 1em;
-  color: (--shadow-color);
 }
 
 #container > p a:hover,
