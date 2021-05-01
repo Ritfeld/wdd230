@@ -2,6 +2,7 @@
 
   box-sizing: border-box; 
   font-family: 'Fira Sans', sans-serif;
+  line-height: 1.4em;
 
 
 a {
@@ -40,7 +41,8 @@ header, footer {
 /* HEADER */
 
 h1 {
-  font-size: 1.3em;
+  font-size: 3em;
+  margin: 0;
   letter-spacing: 1.3px;
 }
 
@@ -50,7 +52,7 @@ h1 {
 main {
   display: block;
   width: 100%;
-  margin: 25px 0 40px 0;
+  margin: 32px 0 40px 0;
 }
 li:last-child {
   line-height: 1.4em;
@@ -80,11 +82,15 @@ li:nth-of-type(4) {
 #container > p a,
 footer a,
 nav a {
-  font-size: 1.3em;
+  font-size: 1em;
   color: rgb(96 177 188);
 }
 #container > p a:hover,
 footer a:hover,
 nav a:hover {
   color: rgb(96 177 188);
+}
+
+#currentDate {
+  display: none;
 }
