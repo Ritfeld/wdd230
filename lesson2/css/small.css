@@ -1,15 +1,17 @@
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');
 
+* {
   box-sizing: border-box; 
   font-family: 'Fira Sans', sans-serif;
   line-height: 1.4em;
-
-
+}
+ 
 a {
   text-decoration: none;
   color: rgb(30 39 109);
   font-size: .7em;
 }
+
 a:hover {
   color: white;
 }
@@ -41,8 +43,8 @@ header, footer {
 /* HEADER */
 
 h1 {
-  font-size: 40px;
-  margin: 0;
+  font-size: 3em;
+  margin-bottom: 0;
   letter-spacing: 1.3px;
 }
 
@@ -53,13 +55,10 @@ main {
   display: block;
   width: 100%;
   margin: 32px 0 40px 0;
-}
-li:last-child {
-  line-height: 1.4em;
-}
+
 
 ul {
-  background-color: rgb(152 205 212);
+  background-color: ;
   border-radius: 3px;
   padding: 20px 10px;
   list-style: none;
