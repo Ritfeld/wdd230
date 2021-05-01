@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');
 
+@media only screen and (min-width) {
+  main {
+      grid-template-columns: 1fr;
+  }
+}
+
 * {
   box-sizing: border-box; 
   font-family: 'Fira Sans', sans-serif;
