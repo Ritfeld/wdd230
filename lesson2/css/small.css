@@ -40,7 +40,7 @@ header, footer {
 /* HEADER */
 
 h1 {
-  font-size: 1em;
+  font-size: 3em;
   letter-spacing: 1.3px;
 }
 
@@ -64,7 +64,7 @@ ul {
 }
 
 li:first-child {
-  font-size: 1em;
+  font-size: 1.3em;
   margin-bottom: 20px;
   padding: 3px 0;
   border-bottom: 1px solid white;
@@ -80,7 +80,7 @@ li:nth-of-type(4) {
 #container > p a,
 footer a,
 nav a {
-  font-size: 1em;
+  font-size: 1.3em;
   color: rgb(96 177 188);
 }
 #container > p a:hover,
