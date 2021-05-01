@@ -79,12 +79,19 @@ li:nth-of-type(4) {
 
 /* FOOTER */
 
+footer {
+  line-height: 2em;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
 #container > p a,
 footer a,
 nav a {
   font-size: 1em;
-  color: rgb(96 177 188);
+  color: (--shadow-color);
 }
+
 #container > p a:hover,
 footer a:hover,
 nav a:hover {
