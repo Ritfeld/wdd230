@@ -16,7 +16,7 @@ a:hover {
 }
 
 img {
-  width: 100%;
+  width: 15%;
   box-shadow: 0 10px 6px -6px #777;
   border: .5px solid lightgreen;
 }
@@ -33,8 +33,23 @@ img {
 header, footer {
   padding: 10px;
   background-color: #bbb;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
   color: white;
   text-align: center;
+}
+
+/* NAV */
+nav ul {
+  background-color: #606a6be1;
+  text-align: center;
+box-shadow: 0 2px 15px gray;
+
+
 }
 
 /* HEADER */
