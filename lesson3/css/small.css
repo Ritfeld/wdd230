@@ -45,9 +45,9 @@ header, footer {
 
 /* NAV */
 nav ul {
-  background-color: #606a6be1;
+  background-color: #8b9ea0e1;
   text-align: center;
-box-shadow: 0 2px 15px gray;
+box-shadow: 0 2px 15px rgba(181, 190, 199, 0.993);
 
 
 }
@@ -70,13 +70,13 @@ main {
   grid-gap: 15px;
 }
 
-ul {
+ ul {
   border-radius: 3px;
   padding: 20px 10px;
   list-style: none;
 }
 
-li:first-child {
+/*li:first-child {
   font-size: 20px;
   margin-bottom: 20px;
   padding: 3px 0;
@@ -85,7 +85,7 @@ li:first-child {
 
 li:nth-of-type(4) {
   margin: 15px 0 20px 0;
-}
+} */
 
 /* FOOTER */
 
@@ -95,9 +95,8 @@ footer {
   padding: 15px 0;
 }
 
-#container > p a,
-footer a,
-nav a {
+#container > p a
+{
   font-size: 1em;
 }
 
@@ -111,3 +110,7 @@ nav a:hover {
   display: none;
 }
 
+footer a,
+nav a {
+  font-size: 1em;
+}
