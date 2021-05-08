@@ -54,13 +54,14 @@ header, footer {
   text-align: center;
 }
 footer p {
-color: blue;
+color: blueviolet;
 }
 /* NAV */
 nav ul {
-  background-color: #8b9ea0e1;
+  background-color: #bed;
   text-align: center;
-box-shadow: 0 2px 15px rgba(181, 190, 199, 0.993);
+box-shadow: 0 2px 15px rgba(181, 190, 199, 0, 993);
+
 
 
 }
