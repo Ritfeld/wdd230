@@ -28,6 +28,11 @@ img {
   width: 75px;
 }
 
+#typographygrid div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
 /* BASE */
 
 #container {
