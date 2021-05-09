@@ -43,7 +43,7 @@ img {
 
 header, footer {
   padding: 10px;
-  background-color: #536878;
+  background-color: #bbb;
   display: flex;
   flex-flow: column;
   align-items: center;
