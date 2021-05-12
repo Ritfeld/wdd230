@@ -28,7 +28,7 @@ a:hover{
   color: blue;
 }
 img {
-  width: 15%;
+  width: 128px;
   box-shadow: 0 10px 6px -6px #777;
   border: .5px solid lightgreen;
 }
