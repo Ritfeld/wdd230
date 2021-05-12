@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');
-.navigation {
+nav ul {
   display: flex;
   flex-flow: nowrap;
   justify-content: flex-end;
