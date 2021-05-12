@@ -138,3 +138,11 @@ footer a,
 nav a {
   font-size: 1em;
 }
+.contentbox {
+  display: block;
+  margin: 10px auto;
+  border: 1px dashed #000;
+  padding: 15px;
+  color: #444;
+  font-style: italic;
+}
