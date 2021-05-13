@@ -138,7 +138,7 @@ footer a,
 nav a {
   font-size: 1em;
 }
-.contentbox {
+#contentbox {
   display: block;
   margin: 100px auto;
   border: 1px dashed #000;
