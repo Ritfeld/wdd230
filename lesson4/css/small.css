@@ -78,13 +78,26 @@ box-shadow: 0 2px 15px yellowgreen;
 
 /* HEADER */
 
-h1 {
-  font-size: 3em;
-  margin-bottom: 0;
-  padding: 10px;
-  letter-spacing: 1.3px;
-}
+header {
+background-color: #36454f;
+padding: 5px 0;
+display: flex;
+align-items: center;
+justify-content: center;
 
+}
+header img {
+  width: 100px;
+  height: auto;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+}
+.headings h1 {
+  font-size: 1.6rem;
+  margin: 0 0 0 17px;
+}
 /* MAIN */
 
 main {
