@@ -53,24 +53,24 @@ img {
 
 header, footer {
   padding: 10px;
-  background-color: rgb(128, 120, 120);
+  background-color: #536878;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
 
   color: white;
   text-align: center;
 }
 footer p {
-color: blueviolet;
+color: whitesmoke;
 }
 /* NAV */
 nav ul {
-  background-color: rgb(133, 122, 122);
+  background-color: none;
   text-align: center;
-box-shadow: 0 2px 15px rgba(181, 190, 199, 0, 993);
+  padding: 20px;
+box-shadow: 0 2px 15px yellowgreen;
 
 
 
@@ -81,6 +81,7 @@ box-shadow: 0 2px 15px rgba(181, 190, 199, 0, 993);
 h1 {
   font-size: 3em;
   margin-bottom: 0;
+  padding: 10px;
   letter-spacing: 1.3px;
 }
 
@@ -140,6 +141,7 @@ nav a {
 }
 .contentbox {
   display: block;
+  width: 100%;
   margin: 10px auto;
   border: 1px dashed #000;
   padding: 15px;
