@@ -148,5 +148,5 @@ nav a {
 }
 * {
   box-sizing: border-box;
-  line-height: 0em;
+  line-height: 1px;
 }
