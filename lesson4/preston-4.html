@@ -13,22 +13,20 @@
 </head>
 <body>
 <header>
-    <picture><img src="images/rainbow1.jpg" alt="website logo"></picture>
-    <section class="headings">
+    <img class="logo" src="images/rainbow1.jpg" alt="website logo">
+     <div class="weather">
         <h1>Rainbowweather Site</h1>
-<h2><div class="m">"Can you see a rainbow in the morning"?</div></h2>
-    </section>
+  <h2>"Can you see a rainbow in the morning"?</h2>
+</div>
 </header>
+<nav class="clearfix">
+    <button onclick="toggleMenu()">☰ Menu</button>
 
-    <nav class="navigation">
-        <ul>
-            <li>
-                <a href="#" onclick="toggleMenu()">☰ Menu</a>
-            </li>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
+        <ul id="primaryNav" class="hide">
+        <li>
+            <a href="#">Home</a>
+        </li>
+            <li class="active">
                 <a href="#">Preston</a>
             </li>
             <li>
@@ -47,7 +45,7 @@
 
     </nav>
     <main>
-        <h2>Preston, Idaho</h2>
+        <h2 class="main_city">Preston Idaho</h2>
         <div class="contentbox">Hero Image / Weather Summary</div>
         <div class="contentbox">5-day Forecast</div>
         <div class="contentbox">Article</div>
