@@ -18,35 +18,25 @@
     </picture>
     <section class="headings">
         <h1>Rainbowweather Site</h1>
-        <strong><div class="m">Can you see a rainbow in the morning?</div></strong>
+        <h2>Can you see a rainbow in the morning?</h2>
     </section>
 </header>
 
-    <nav class="navigation">
-        <ul>
-            <li>
-                <a href="#" onclick="toggleMenu()">☰ Menu</a>
-            </li>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Preston</a>
-            </li>
-            <li>
-                <a href="#">Soda Springs</a>
-            </li>
-            <li>
-                <a href="#">Fish Haven</a>
-            </li>
-            <li>
-                <a href="#">Storm Center</a>
-            </li>
-            <li>
-                <a href="#">Gallery</a>
-            </li>
-        </ul>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&9776;</button>
 
+    <ul id="responsive" class="hide">
+        
+            <li><a href="#" onclick="toggleMenu()">☰ Menu</a>
+            </li>
+
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
     </nav>
     <main>
         <h2>Preston, Idaho</h2>
