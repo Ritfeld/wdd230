@@ -12,3 +12,11 @@ h1 {
     margin-right: 0px;
     margin-left: 0px;
 }
+nav ul.hide {
+    display: block;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+}
