@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 639px) {
     nav ul {
         display: grid;
         grid-template-columns: repeat(7, 1fr);
@@ -19,4 +19,12 @@ nav ul.hide {
 main {
     max-width: 500px;
     margin: 0 auto;
+}
+
+nav ul {
+    margin-left: 2%;
+}
+
+nav ul li {
+    float: left;
 }
