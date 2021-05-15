@@ -163,10 +163,11 @@ footer {
   padding: 15px 0;
 }
 
-#container > p a
-{
-  font-size: 1em;
-}
+#container > p a,
+ footer a,
+ nav a {
+   font-size: 1em;
+ }
 
 #container > p a:hover,
 footer a:hover
@@ -185,8 +186,8 @@ nav a {
 .contentbox {
   background-color: whitesmoke;
   border: 2px solid #606a6b;
-  padding: 15px;
-  margin: 10px;
+  padding: 25px;
+  margin: 0px;
   border-radius: 5px;
   display: block;
   width: 100%;
@@ -209,20 +210,4 @@ h1 {
 h2 {
   font-size: 2em;
   margin-top: 0;
-}
-
-h2 {
-  display: block;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  margin: 30px;
-}
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
 }

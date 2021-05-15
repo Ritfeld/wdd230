@@ -19,6 +19,10 @@ nav ul.hide {
 main {
     max-width: 500px;
     margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
 }
 
 nav ul {
