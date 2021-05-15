@@ -1,34 +1,16 @@
-@media only screen and (min-width: 639px) {
-    nav ul {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        
-    }
-}
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-    margin-top: 0.67em;
-    margin-right: 0px;
-    margin-left: 0px;
-}
-nav ul.hide {
-    display: block;
-}
-
-main {
-    max-width: 500px;
-    margin: 0 auto;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-}
-
-nav ul {
-    margin-left: 1%;
-}
-
-nav ul li {
-    float: left;
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
 }
