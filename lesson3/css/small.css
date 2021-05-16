@@ -49,12 +49,11 @@ header, footer {
   align-items: center;
   justify-content: center;
   padding: 10px;
-
-  color: white;
   text-align: center;
+  color: white;
 }
 footer p {
-color: blueviolet;
+background-color: black;
 }
 /* NAV */
 nav ul {
@@ -82,6 +81,7 @@ main {
   width: 100%;
   margin: 32px 0 40px 0;
   grid-gap: 15px;
+  text-align: center;
 }
 
  ul {
@@ -107,6 +107,7 @@ footer {
   line-height: 2em;
   margin-top: 20px;
   padding: 15px 0;
+  
 }
 
 #container > p a
