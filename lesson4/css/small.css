@@ -15,7 +15,7 @@ header {
 header img {
 	width: 100px;
 	height: auto;
-  border-radius: px;
+  border-radius: 10px;
 }
 
 .headings {
@@ -105,7 +105,10 @@ nav {
   margin: 10px auto;
   border: 1px dashed #000;
   color: black
-  font-style; italic;
+}
+
+.contentbox {
+	font-style:italic italic;
 }
 * {
   box-sizing: border-box;
