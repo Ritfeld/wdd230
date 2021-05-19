@@ -6,7 +6,7 @@ const list = document.querySelector('ul');
   // step 5
   button.addEventListener("click" , function() {
     let myChapter - input.value;
-    input.value = '';
+    input.value '-';
   
  const listChapter - document;
 
