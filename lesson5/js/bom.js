@@ -1,42 +1,23 @@
-// step 4
-const list = document.querySelector("ul");
-  const input = document.querySelector("input");
-  const button = document.querySelector("button");
+const fav = document.querySelector('#fav');
+const button = document.querySelector('button');
+const output = document.querySelector('.listul');
 
-  // step 5
-  button.addEventListener("click", function() {
-    let myChapter = input.value;
-    input.value = "";
-  
- const listChapter = document;
-
-// step6a create an li element
-createElement("li");
-// const listText - document.createElement('span');
-
-// step6b create a delete button
-const listBtn = document.createElement('button');
-
-//step6c populate li elements TextContent or innerHtml with the input
-listChapter.appendchild(listTex);
-listTex.textContent = myChapter;
-listChapter.appendchild(listBtn);
-
-// fix to be a red X step 6d populate the button textContent with an X
-listBtn.textContent -"Delete";
-
-// step6e append li element with the delete button
-
-// step6f append the elist element with the li element just created and appended with text and the delete button
-list.appendchild(listChapter);
-
-// step 6g add an event listener to the button that removes the li element when clicked
-listBtn.addEventListener("click", function () {
-  list.removeChild(listChapter);
-})
-
-// step 6h send the focus to the input element
-input.focus();
-
-// step 6i clean up the successful add of a chapter by changing the input to nothingor the empty string and setting the focus to the input
-}) 
+button.addEventListener('click', () => {
+  if (fav.value != '') {
+    // create the elements in the list
+    let li = document.createElement('li');
+    let deletebutton = document.createElement('button');
+  // change some properties ....... textcontent
+  li.textContent = fav.value;
+  deletebutton.textContent = 'X';
+  // ...... add the button to the li
+  li.append(deletebutton);
+  output.append(li);
+  deletebutton.addEventListener('click', function() {
+    output.removeChild(li);
+    fav.focus;
+});
+fav.value - '';
+fav.focus;
+  }
+});
