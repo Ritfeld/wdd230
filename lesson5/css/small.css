@@ -126,3 +126,8 @@ main {
 .active {
   background-color: lightcoral;
 }
+main img {
+	width: 100px;
+	height: auto;
+  border-radius: 10px;
+}
