@@ -127,7 +127,7 @@ main {
   background-color: lightcoral;
 }
 main img {
-	width: 100px;
+	width: 100%;
 	height: auto;
   border-radius: 10px;
 }
