@@ -1,21 +1,21 @@
 // step 4
-const list = document.querySelector('ul');
-  const input = document.querySelector('input');
-  const button = document.querySelector('button');
+const list = document.querySelector("ul");
+  const input = document.querySelector("input");
+  const button = document.querySelector("button");
 
   // step 5
-  button.addEventListener("click" , function() {
-    let myChapter - input.value;
-    input.value '-';
+  button.addEventListener("click", function() {
+    let myChapter = input.value;
+    input.value = "";
   
- const listChapter - document;
+ const listChapter = document;
 
 // step6a create an li element
 createElement("li");
 // const listText - document.createElement('span');
 
 // step6b create a delete button
-const listBtn - document.createElement('button');
+const listBtn = document.createElement('button');
 
 //step6c populate li elements TextContent or innerHtml with the input
 listChapter.appendchild(listTex);
