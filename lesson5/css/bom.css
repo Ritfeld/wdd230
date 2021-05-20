@@ -33,6 +33,7 @@ label {
 .listcontainer {
 	padding: 1rem;
 	border: 1px solid #bbb;
+	margin: 1rem;
 }
 .list {
 	margin: 0.25rem;
