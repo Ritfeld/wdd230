@@ -130,9 +130,5 @@ main img {
 	width: 130%;
 	height: auto;
   border-radius: 10px;
-  align-content: center;
-}
-
-h2 align-content {
-	flex-start
+  
 }
