@@ -132,3 +132,7 @@ main img {
   border-radius: 10px;
   align-content: center;
 }
+
+h2 align-content {
+	flex-start
+}
