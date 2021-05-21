@@ -142,7 +142,7 @@ h1, h2, p {margin: 0;}
 .stats {
 	position: absolute;
 	top: 25px;
-	right: 50px;
+	left: 50px;
 	background: radial-gradient(#eee, #4567aa);
 	border: 1px solid green;
 	padding: 1.5rem;
