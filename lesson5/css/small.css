@@ -128,8 +128,7 @@ h2 {
 
 }
 h3 {
-    font-size: 1.25em;
-    font-weight: bold;
+    font-size: 1em;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -141,7 +140,7 @@ h4, h5 {
 }
 
 p {
-    font-size: 1.25em;
+    font-size: 90.em;
     font-family: 'Poppins', sans-serif;
     padding: 0.2rem;
     color: #00264d;
