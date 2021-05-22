@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 100%;
     line-height: 1.5;
+    color: black;
 }
 
 header, nav {
@@ -143,7 +144,7 @@ p {
     font-size: 80.em;
     font-family: 'Poppins', sans-serif;
     padding: 0.2rem;
-    color: rgb(5, 74, 104);
+    color: black;
 }
 
 .contentbox {
@@ -159,7 +160,7 @@ p {
 
 
 .active {
-  background-color: black;
+  background-color: rgb(216, 187, 187);
 }
 .herodiv {margin: 10px auto; position: relative;}
 h1, h2, p {margin: 0;}
@@ -167,9 +168,15 @@ h1, h2, p {margin: 0;}
 	position: absolute;
 	top: 25px;
 	left: 25px;
-	background: radial-gradient(#eee, #4567aa);
-	border: 1px solid green;
+	background: gray;
+	border: 1px solid  gray;
 	padding: 1.5rem;
-	box-shadow: 0 0 30px #333;
+	box-shadow: 0 0 30px rgb(175, 167, 167);
 	opacity: .9;
 }
+
+.myDiv {
+    border: 0px outset whitesmoke;
+    background-color: whitesmoke; 
+    text-align: center;
+  }
