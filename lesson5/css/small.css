@@ -52,7 +52,7 @@ header, footer {
 
 header {
     line-height: .5;
-    background-color: lightseagreen;
+    background-color: rgba(23, 72, 209, 0.514);
     color: whitesmoke;
     display: flex;
     align-items: center;
@@ -92,13 +92,13 @@ a:visited {
 }
 
 a:hover {
-    color: #0567ca;
-    background-color: springgreen;
+    color: red;
+    background-color: whitesmoke;
 }
 
-a:active {
-    background-color: seagreen;
-    color: springgreen;  
+a.active {
+    background-color: rgb(204, 172, 172);
+ 
 }
 
 
@@ -143,7 +143,7 @@ p {
     font-size: 90.em;
     font-family: 'Poppins', sans-serif;
     padding: 0.2rem;
-    color: #00264d;
+    color: #edf8ef;
 }
 
 .contentbox {
@@ -159,7 +159,7 @@ p {
 
 }
 .active {
-  background-color: lightcoral;
+  background-color: black;
 }
 .herodiv {margin: 10px auto; position: relative;}
 h1, h2, p {margin: 0;}
