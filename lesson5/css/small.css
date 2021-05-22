@@ -187,3 +187,8 @@ h1, h2, p {margin: 0;}
     background-color: black;
     margin: 6px 0;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 80px 200px auto 40px;
+  }
