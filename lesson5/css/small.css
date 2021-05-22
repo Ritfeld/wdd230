@@ -52,8 +52,8 @@ header, footer {
 
 header {
     line-height: .5;
-    background-color: rgba(23, 72, 209, 0.514);
-    color: whitesmoke;
+    background-color: rgb(51, 117, 184);
+    color: rgb(97, 247, 11);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,10 +140,10 @@ h4, h5 {
 }
 
 p {
-    font-size: 90.em;
+    font-size: 80.em;
     font-family: 'Poppins', sans-serif;
     padding: 0.2rem;
-    color: #edf8ef;
+    color: rgb(5, 74, 104);
 }
 
 .contentbox {
@@ -157,7 +157,7 @@ p {
 	display: block;
 }
 
-}
+
 .active {
   background-color: black;
 }
