@@ -180,3 +180,10 @@ h1, h2, p {margin: 0;}
     background-color: whitesmoke; 
     text-align: center;
   }
+
+  div navigation {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
