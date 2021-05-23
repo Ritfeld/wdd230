@@ -162,14 +162,15 @@ p {
 .active {
   background-color: rgb(216, 187, 187);
 }
-.herodiv {margin: 10px auto; position: relative;}
+.herodiv {margin: 10px auto; position: relative;
+width: 100%;}
 h1, h2, p {margin: 0;}
 .stats {
 	position: absolute;
 	top: 25px;
 	left: 25px;
-	background: gray;
-	border: 1px solid  gray;
+	background: whitesmoke;
+	border: 1px solid  yellow;
 	padding: 1.5rem;
 	box-shadow: 0 0 30px rgb(175, 167, 167);
 	opacity: .9;
@@ -177,7 +178,7 @@ h1, h2, p {margin: 0;}
 
 .myDiv {
     border: 0px outset whitesmoke;
-    background-color: whitesmoke; 
+    background-color: transparent; 
     text-align: center;
   }
 
@@ -188,7 +189,32 @@ h1, h2, p {margin: 0;}
     margin: 6px 0;
   }
 
-  .grid-container {
+  .map-grid {
     display: grid;
-    grid-template-columns: 80px 200px auto 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: start;
   }
+
+  .map {
+    grid-row: 1/-1;
+    margin-bottom: 30px;
+    
+    
+  }
+
+  .images {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left:  150px;
+    
+  }
+  .images img {
+      width: 20%;
+}
+
+.information {
+    margin-left: 80px;
+    margin-bottom: 100px;
+    margin-top: 100;
+}
