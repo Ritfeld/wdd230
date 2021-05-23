@@ -166,14 +166,20 @@ p {
 width: 100%;}
 h1, h2, p {margin: 0;}
 .stats {
-	position: absolute;
-	top: 25px;
-	left: 25px;
-	background: whitesmoke;
-	border: 1px solid  yellow;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px rgb(175, 167, 167);
-	opacity: .9;
+	display: grid;
+    grid-template-columns: auto auto;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: seagreen;
+    color: white;
+    padding: .5rem;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    box-shadow: 0 0 30px;
+    opacity: .8;
 }
 
 .myDiv {
