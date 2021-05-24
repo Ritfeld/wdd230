@@ -146,7 +146,9 @@ p {
     padding: 0.2rem;
     color: black;
 }
-
+.stats p {
+    color: whitesmoke;
+}
 .contentbox {
     display: block;
     margin: 10px auto;
