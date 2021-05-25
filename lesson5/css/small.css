@@ -10,7 +10,7 @@ header, nav {
 }
 
  main, footer {
-    max-width: 600px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -147,7 +147,7 @@ p {
     color: black;
 }
 .stats p {
-    color: whitesmoke;
+    color: yellow;
 }
 .contentbox {
     display: block;
