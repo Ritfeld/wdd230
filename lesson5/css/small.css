@@ -5,11 +5,13 @@ body {
     color: black;
 }
 
-header, nav {
+header,
+nav {
     margin: 0 auto;
 }
 
- main, footer {
+main,
+footer {
     width: 100%;
     margin: 0 auto;
 }
@@ -19,6 +21,7 @@ nav {
     font-size: .75em;
     background-color: lightgrey;
 }
+
 nav ul {
     padding: 0;
     margin: 0;
@@ -31,7 +34,7 @@ nav ul {
 }
 
 .navigation li:first-child {
-	display: block;
+    display: block;
 }
 
 .navigation li {
@@ -39,14 +42,15 @@ nav ul {
 }
 
 nav li a {
-	display: block;
-	text-align: left;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
+    display: block;
+    text-align: left;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
 }
 
-header, footer {
+header,
+footer {
     text-align: center;
     padding: .5rem;
 }
@@ -58,26 +62,26 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
- }
+}
 
- header img {
-     width: 80px;
-     height: auto;
- }
+header img {
+    width: 80px;
+    height: auto;
+}
 
- .motto {
-     font-style: italic;
-     font-size: 1.5em;
-     padding: .2em;
-     margin: 0;
- }
+.motto {
+    font-style: italic;
+    font-size: 1.5em;
+    padding: .2em;
+    margin: 0;
+}
 
- .headings {
-     display: flex;
-     flex-direction: column;
-     padding: 0;
-     margin: 0;
- }
+.headings {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
 
 footer {
     background-color: lightseagreen;
@@ -99,14 +103,14 @@ a:hover {
 
 a.active {
     background-color: rgb(204, 172, 172);
- 
-}
 
+}
 
 img {
     max-width: 100%;
     height: auto;
     float: left;
+    margin-top: 10px;
 }
 
 h1 h2 h3 {
@@ -117,7 +121,7 @@ h1 {
     font-size: 2.5em;
     font-weight: bold;
     font-family: 'Trirong', serif;
-    line-height:100%;
+    line-height: 100%;
     margin: .5rem;
 
 }
@@ -128,12 +132,14 @@ h2 {
     text-align: center;
 
 }
+
 h3 {
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
 }
 
-h4, h5 {
+h4,
+h5 {
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
     background-color: black;
@@ -146,9 +152,11 @@ p {
     padding: 0.2rem;
     color: black;
 }
+
 .stats p {
     color: yellow;
 }
+
 .contentbox {
     display: block;
     margin: 10px auto;
@@ -156,67 +164,103 @@ p {
     padding: 15px;
     font-style: italic;
 }
+
 .responsive li {
-	display: block;
+    display: block;
 }
 
 
 .active {
-  background-color: rgb(216, 187, 187);
+    background-color: rgb(216, 187, 187);
 }
-.herodiv {margin: 10px auto; position: relative;
-width: 100%;}
-h1, h2, p {margin: 0;}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
 .stats {
-	position: absolute;
-	top: 25px;
-	left: 25px;
-	background: seagreen;
-	border: 1px solid  none;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px rgb(175, 167, 167);
-	opacity: .9;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background: seagreen;
+    border: 1px solid none;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px rgb(175, 167, 167);
+    opacity: .9;
 }
 
 .myDiv {
     border: 0px outset whitesmoke;
-    background-color: transparent; 
+    background-color: transparent;
     text-align: center;
-  }
+}
 
-  div navigation {
+div navigation {
     width: 35px;
     height: 5px;
     background-color: black;
     margin: 6px 0;
-  }
+}
 
-  .map-grid {
+.map-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     justify-content: start;
-  }
+    grid-gap: 1em;
 
-  .map {
+}
+
+.map {
     grid-row: 1/-1;
     margin-bottom: 30px;
-    
-    
-  }
 
-  .images {
+
+}
+
+.images {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-left:  150px;
-    
-  }
-  .images img {
-      width: 20%;
+    margin-top: 5px;
+
+
+}
+
+.images img {
+    width: 20%;
+    margin: 0 5px;
 }
 
 .information {
-    margin-left: 80px;
+    margin-left: 20%;
     margin-bottom: 100px;
     margin-top: 100;
+}
+
+.article {
+    width: 100%;
+}
+
+.location img {
+    width: 10%;
+}
+
+.email img {
+    width: 10%;
+}
+
+.phone img {
+    width: 10%;
+}
+
+.preston {
+    margin-left: 35%;
 }
