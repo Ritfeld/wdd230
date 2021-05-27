@@ -4,82 +4,69 @@
 <head>
     <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="The conditions between raining, shining and the sun">
-    <title>Preston Idaho</title>
+       <title>Preston Idaho</title>
+    <meta name="description" content="Preston Idaho weather site provides responsive images">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../images/fav.ico">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-    <body>
-    
+    <link href="css/small.css" rel="stylesheet" >
+
+    <link href="css/small.css" rel="stylesheet"/>
+    <link href="css/medium.css" rel="stylesheet" media="(min-width: 32.5em)" />
+    <link href="css/normalize.css" rel="stylesheet"/>
+   <link href="css/large.css" rel="stylesheet" media="(min-width: 70em)" />
 </head>
 
 <body>
-    <div id="banner">
-        <div id="pancake"><p><strong>**Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.**</strong></p></div> 
-
+<header>
+    <div class="headings">
+        <img src="images/rainbow1.jpg" alt="The site logo">
+        <div class="logotext">
+            <h1>Rainbowweather Site</h1>
+            <div class="motto">Preston Idaho responsive images website</div>
+        </div>
     </div>
+</header>
+        <div class="navigation">
+            <ul>
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>   
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="preston6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+         </ul>
+        </div>
 
-    <header class="logo">
-        <picture>
-        <img src="images/rainbow1.jpg" alt="website logo">
-        </picture>
-        <div class="siteNameMotto">
-            <h1>Rainbow Weather Site</h1>
-           <strong><p style="color: white ;">"Can you see a rainbow in the morning"!</p></strong>
-            </div>
-
-         <section class="weathersummary">
-            <div class="myDiv">
-               
-            </div>
-        </section>
-    </header>
-    <nav>
-        <ul class="navigation">
-            <li><a class="nav" href="#">&#9776; Menu</a></li>
-            <li>
-                <a href="#">Home</a></li>
-
-            <li class="active">
-                <a href="preston-5.html" class="active">Preston</a>
-
-            <li>
-                <a href="#">Soda Springs</a>
-            </li>
-            <li>
-                <a href="#">Fish Haven</a>
-            </li>
-            <li>
-                <a href="#">Storm Center</a>
-            </li>
-            <li>
-                <a href="#">Gallery</a>
-            </li>
-
-        </ul>
-    </nav>
-    <h2 class="main_city">Preston Idaho</h2>
-    <main>
-        <div class="herodiv">
-            <img src="images/preston photo1.jpg" alt="preston logo">
+     <main>
+    <h2 class="main_city">Preston Idaho Town</h2>
+           <div class="mainheader">
+               <picture class="photoA">
+                <source media="(max-width: 200px)' srcset="images01
                 <div class="stats"></div>
-
-            <section class="stats">
-                <h2>Weather Summary</h2>
-                <p class="label">Currently: Sunny</p>
-                <p class="label">High: 76 &deg;F</p>
-                <p class="label">Wind Chill: &deg;F</p>
-                <p class="label">Humidity: 69%</p>
-                <p class="label">Wind Speed: 5 mph</p>
-                </div>
-        </section>
+               </picture>
             
 
-        <div class="flex-Container">
+            <section class="weatherdata">
+                <h3>Weather Summary</h3>
+                <div class="weatherdetails">
+                <p class="label">Currently: </p>
+                <p class="value"> 38&deg;F<br/Sunny</p>
+                <p class="label">Temperature: </p>
+                <p class="value"><span id="hightemp">75</span> &deg; F</p>
+                <p class="label">Wind Chill: </p>
+                <p class="value"><span id="windchill"></span>&deg;F</p>
+                <p class="label">Humidity: </p>
+                <p class="value"> 23%</p>
+                <p class="label">Wind Speed: </p>
+                <p class="value"> 6 mph</p>
+                </div>
+        </section>
+        </div>
+            
+
+        <div class="forecastContainer">
             <h3>5 Day Forecast</h3>
             <div class="forecast">
                 <div class="days">Tues</div>
@@ -114,43 +101,7 @@
                 <div class="temp">35 &#8457;</div>
             </div>
         </div>
-        <div class="article">
-            <h3>First Settlers and Early History </h3>
-            <img src="images/prestonfirst.jpg" alt="first settlers">
-            <p>Elisha R. Laurence</p>
-            <p>Located on the flat, at the junction of Highways 91 and 36 is the county seat of Franklin County:
-                Preston, Idaho. Prior to 1881, the flat was known as “Worm Creek” [pronounced “crick”]. Those that
-                settled this area were predominantly Mormon and their leadership came from the LDS Church President in
-                Salt Lake City, Utah. The name Preston was chosen for the area in the following manner as recorded by
-                Baltzer Peterson: </p>
-            <p>On May 14, 1881, a special meeting was held. Some of the Church Leaders at Salt Lake City objected to the
-                name “Worm Creek” as pertaining to any Church Organization. They thought that a more appropriate name
-                should be given the Ward for they were not in favor of the name “Worm” being used when it pertained to
-                anything connected with the Church. Mrs. Rachel Porter, wife of Bishop Porter, had the privilege of
-                suggesting the name “Preston” in honor of Bishop William B. Preston of the Cache Stake, and who later
-                became the presiding Bishop of the Church. Thus Preston became the name of the Ward and the Community.
-            </p>
-            <p>The first permanent residence within the present city limits of Preston was established by Dennis W. Winn
-                in 1868. He built a frame home 32 by 16 feet. The house was located a mile southeast of the city center.
-                Due to the lack of water on the sand ridge or the Preston Flat, settlements had surrounded the Flat
-                before the first homes were built there.</p>
-            <p>Homesteaders were especially moving closer from the southeast and east due to the filling up of available
-                quarter section homesteads along Worm Creek. Other early settlers in the area were: Alfred Alder, David
-                Boyce, Thomas Bennett, William Bennett, William Bell, Hans M Lund, Benjamin Lamont, Anna Lundgren,
-                William D. Millar, James Miller, Christen Mortensen, Claus Clausen, James Chadwick, Ephraim Ellsworth,
-                Joseph Poster, George Poster, William Gibbons, Joseph Golightly, Willard Green, Anders Mortensen, J. O.
-                Paton, Hyrum Nielsen, Joseph Nielsen, Hans Nisson, Hop Pender, Shem Purnell, Ernest Purnell, Ole
-                Petersburg, Andrew Garrison, James R. Hebdon, G. Halverson, J. Harris, Martin Higley, Amelious Hansen,
-                Elum Hollingsworth, Eil Petterborg, Joseph S. Sharp, George Shaffer, Allen Tatum, Robert Wayman, Charles
-                West, Alfred Willhelm, John Winn and James Winn. </p>
-            <h3>Education </h3>
-            <img src="images/history.jpg" alt="first school">
-            <p>Before the construction of the Worm Creek School, homes or private facilities of the people had were used
-                to educate their children. The first community school was conducted in 1877 in Robert M. Hull’s log
-                granary. Verena Foster, a girl of sixteen, was the first teacher. As with all early schools, her
-                subjects were the three R’s and spelling. Books had to be shared and pencil and slate were used to
-                record the new learning. The new log school building was ready in 1879 with Mary Heller as the first
-                teacher. </p>
+        
         </div>
         <div class="map-grid">
             <div class="map">
