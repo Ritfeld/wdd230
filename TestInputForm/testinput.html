@@ -1,42 +1,74 @@
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Filll Me In">
-        <meta name="author" content="Willem Ritfeld">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="css/normalize.css" rel="stylesheet">
-        <link href="css/small.css" rel="stylesheet">
-        <link href="css/medium.css" rel="stylesheet">
-        <link href="css/large.css" rel="stylesheet">
-        
-    </head>
-    <body>
-        <header>
-            <h1>Company Name Here</h1>
-            <h2>Possible Slogan or Tagline</h2>
-        </header>
-        <nav class="clearfix">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li class="active">
-                    <a href="#">Products</a>
-                </li>
-                <li>
-                    <a href="#">Location</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <main>
-            <h1>Products</h1>
-            <p>The page name should almost exactly math the menu item.</p>
-        </main>
-        <footer>
-            @2021 | Willem Ritfeld |Suriname.
-        </footer>
-    </body>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>HTML5 Start Site by Paul Cheney</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+	<header class="clearfix">
+        <figure class="logo">
+        <img src="testimages/golgotha.jpg" alt="golgotha" sizes="50vw"
+         srcset="testimages/golgotha200.jpg 200w,
+                  testimages/golgotha500.jpg 500w,
+                  testimages/golgotha800.jpg 800w,
+                  testimages/golgotha1100.jpg 110w,">
+        </figure>
+ <h1>Company Name Here</h1>
+        <h2>Possible Slogan or Tagline</h2>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Contact</a></li>    
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main class="clearfix">
+        <h1>Products</h1>
+        <figcaption>The Garden Tomb</figcaption>
+        </figure>
+        <p>What is Lorem Ipsum?
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            
+            Why do we use it?
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        <p>&copy; 201x &bull; Paul Cheney &bull; 123-555-6789</p>
+    </footer>
+    
+<script src="js/scripts.js"></script>
+</body>
 </html>
