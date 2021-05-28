@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="The Rainbowweather Site provide responsive images">
+    <meta name="description" content="The rainbowweather website provide optimized responsive images">
     <title>Preston Town Page Continued</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -37,8 +37,7 @@
     <nav>
         <ul class="navigation">
             <li><a class="nav" href="#">&#9776; Menu</a></li>
-            <li>
-                <a href="#">Home</a></li>
+            <li><a href="../index.html" >Home</a></li>
 
             <li class="active">
                 <a href="preston6.html" class="active">Preston</a>
@@ -61,21 +60,22 @@
     <h2 class="main_city">Preston Idaho</h2>
     <main>
         <div class="herodiv">
-            <img src="images/image_franklinOriginal01.jpg" sizes="50vw"
-            srcset="images/image_franklinOriginal03.jpg 200w,
-                    images/image_franklinOriginal02.jpg 500w,
-                    images/image_franklinOriginal01.jpg 800w" 
-                   alt="preston6 image"> 
-                <div class="stats"></div>
+            <picture>
+              <source srcset="images/image_large.jpeg" media="(min-width: 1200px)">
+              <source srcset="images/image_medium.jpg" media="(min-width: 800px)">
+              <img src="images/image_franklinOriginal.jpeg" alt= "responsive picture">
+                           
+            </picture>
 
-            <section class="stats">
-                <h2>Weather Summary</h2>
+                <div class="stats"></div>
+                <section class="stats">
                 <div class="weatherdetails">
-                <p class="label">Currently Broken Clouds:</p>   
-                <p class="label">Temperature 41 </span>&deg;F</p>  
-                <p class="label">Humidity: 61%</p>  
-                <p class="label">Wind Speed: 5 mph</p>    
-                <p class="label">Wind Chill: </span>&deg;F</p>   
+                <h3>Weather Summary</h3>
+                <p class="label">Currently 38&deg;F: Sunny</p>   
+                <p class="value">Temperature 75 </span>&deg;F</p> 
+                <p class="label">Wind Chill: </span>&deg;F</p> 
+                <p class="value">Humidity: 23%</p> 
+                <p class="value">Wind Speed: 4.7mph</p>   
             </div>
         </section>
             
@@ -116,8 +116,7 @@
             </div>
         </div>
         <div class="article">
-            <h3>First Settlers and Early History </h3>
-            <img src="images/prestonfirst.jpg" alt="first settlers">
+            <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis eos recusandae doloribus aut nostrum ducimus ratione porro ad esse voluptates. Possimus vitae sint totam suscipit. Inventore eveniet sequi ullam porro.</h3>
             
         </div>
         <div class="map-grid">
