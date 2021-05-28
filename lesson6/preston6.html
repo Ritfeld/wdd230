@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 
-<body>
 
     </head>
 
@@ -64,13 +63,12 @@
         <main>
             <h2 class="main_city">Preston Idaho</h2>
             <div class="herodiv">
-                <picture>
-                    <source srcset="images/image_large.jpeg" media="(min-width: 1200px)">
-                    <source srcset="images/image_medium.jpeg" media="(min-width: 800px)">
-                    <img src="images/image_franklinOriginal.jpeg" alt="responsive picture">
-
-                </picture>
-
+             <img src="images/image_franklinOriginal.jpeg" sizes="100vw"
+          srcset="images/image_small.jpeg 200w,
+                  images/image_medium.jpeg 500w,
+                  images/image_large.jpeg  800w"
+                  alt="preston6 image">
+                  
                 <div class="stats"></div>
                 <div class="stats">
                     <div class="weatherdetails">
