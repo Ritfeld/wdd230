@@ -107,7 +107,7 @@ a.active {
 }
 
 img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     float: left;
     margin-top: 10px;
@@ -235,7 +235,7 @@ div navigation {
 }
 
 .images img {
-    width: 15%;
+    width: 10%;
     margin: 0 10px;
 }
 
@@ -263,8 +263,4 @@ div navigation {
 
 .preston {
     margin-left: 35%;
-}
-
-.flex-Container {
-    display: block;
 }
