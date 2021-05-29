@@ -235,7 +235,7 @@ div navigation {
 }
 
 .images img {
-    width: 10%;
+    width: 15%;
     margin: 0 10px;
 }
 
@@ -263,4 +263,8 @@ div navigation {
 
 .preston {
     margin-left: 35%;
+}
+
+.flex-Container {
+    display: block;
 }
