@@ -147,9 +147,9 @@ h5 {
 }
 
 p {
-    font-size: 80.em;
-    font-family: 'Poppins', sans-serif;
-    padding: 0.2rem;
+    font-size: 80em;
+    font-family: 'Open Sans', sans-serif;
+     padding: 0.2rem;
     color: black;
 }
 
@@ -242,7 +242,7 @@ div navigation {
 .information {
     margin-left: 20%;
     margin-bottom: 100px;
-    margin-top: 100;
+    margin-top: 100px;
 }
 
 .article {
