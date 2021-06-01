@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The rainbowweather website provide optimized responsive images">
+    <title>Preston Town Page Continued</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/fav.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+
+</head>
+
+
+    <main>
+        <h1>Lazy Loading Images</h2>
+            <p>Scroll down......</p>
+
+            <picture>
+                <img src="https://placekitten.com/300/400" alt="kitten">
+            </picture>
+
+           
+            <picture>
+                <img src="https://placebear.com/300/400"  alt="bear">
+            </picture>
+
+           <picture>
+            <img class="lazy" data-src="https://ik.imagekit.io/demo/img/image6.jpeg?tr=w-400,h-300" />
+           </picture>
+           
+            <picture>
+                <img class="lazy" data-src="https://ik.imagekit.io/demo/img/image5.jpeg?tr=w-400,h-300" />
+            </picture>
+
+
+          
+
+    </main>
+    <footer>
+        <p> &copy; <span id="theyear"></span> | Willem J Ritfeld | Paramaribo | Suriname |</p>
+        <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a>
+        <p>Last Modified: <span id="lastmod"></span></p>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="js/imagehandling.js"></script>
+</body>
+
+</html>
