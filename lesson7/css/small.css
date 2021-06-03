@@ -284,6 +284,6 @@ figcaption {font-size: smaller;}
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
     margin: 32px 0 40px 0;
-    grid-gap: 1px;
+    grid-gap: 1em;
   }
   
