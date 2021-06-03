@@ -1,0 +1,289 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    line-height: 2.5;
+    color: black;
+}
+
+header,
+nav {
+    margin: 0 auto;
+}
+
+main,
+footer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 0;
+    font-size: .75em;
+    background-color: lightgrey;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav li a {
+    display: block;
+    text-align: left;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: .5rem;
+}
+
+header {
+    line-height: .5;
+    background-color: rgb(51, 117, 184);
+    color: rgb(97, 247, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.motto {
+    font-style: italic;
+    font-size: 1.5em;
+    padding: .2em;
+    margin: 0;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: red;
+    background-color: whitesmoke;
+}
+
+a.active {
+    background-color: rgb(204, 172, 172);
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+}
+
+h1 h2 h3 {
+    color: black;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Trirong', serif;
+    line-height: 100%;
+    margin: .5rem;
+
+}
+
+h2 {
+    font-size: 1.75em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4,
+h5 {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+}
+
+p {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.2rem;
+    color: black;
+}
+
+.stats p {
+    color: yellow;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #0059b3;
+    padding: 15px;
+    font-style: italic;
+}
+
+.responsive li {
+    display: block;
+}
+
+
+.active {
+    background-color: rgb(216, 187, 187);
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+.stats {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background: seagreen;
+    border: 1px solid none;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px rgb(175, 167, 167);
+    opacity: .9;
+}
+
+.myDiv {
+    border: 0px outset whitesmoke;
+    background-color: transparent;
+    text-align: center;
+}
+
+div navigation {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.map-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    grid-gap: 1em;
+
+}
+
+.map {
+    grid-row: 1/-1;
+    margin-bottom: 30px;
+
+
+}
+
+.images {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 5px;
+
+
+}
+
+.images img {
+    width: 10%;
+    margin: 0 10px;
+}
+
+.information {
+    margin-left: 20%;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+.article {
+    width: 100%;
+}
+
+.location img {
+    width: 10%;
+}
+
+.email img {
+    width: 10%;
+}
+
+.phone img {
+    width: 10%;
+}
+
+.preston {
+    margin-left: 35%;
+}
+
+.container {margin: 1rem auto; display:grid; grid-template-columns: 1fr 1fr 1fr; max-width: 1048px;}
+
+img { width: 250px; height: auto; margin: .5rem;}
+figcaption {font-size: smaller;}
+/* hover effect */
+.norm:hover {box-shadow: 0 0 50px #333;}
+/* rounded corners - boxmodel */
+.rocorn {border-radius: 5px 150px;}
+/* simple opacity */
+.opac {opacity: .5;}
+.blur {filter: blur(1px) grayscale(75%);}
+.object {width: 100%; height: 100px ; object-fit: cover;}
+.shape-outside {border-radius: 100px; width:35%; margin: 0 3em .5em 0; float:left; shape-outside: circle();}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin: 32px 0 40px 0;
+    grid-gap: 1px;
+  }
+  

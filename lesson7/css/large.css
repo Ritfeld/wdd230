@@ -1,0 +1,24 @@
+/* Desktop Views ****************************/
+@media only screen and (min-width: 64rem) {
+    header img {
+        width: 100%;
+    }
+  
+    main, footer {
+        max-width: 900px;
+    }
+    
+    .wsummary {
+        font-size: 1vw;
+    }
+  
+    .article img {
+        width: 25%
+    }
+  
+  }
+  main {
+    width: 200%;
+    margin: 0 auto;
+}
+
