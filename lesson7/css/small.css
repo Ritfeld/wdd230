@@ -290,3 +290,12 @@ figcaption {font-size: smaller;}
   figcaption {
       margin: .5em;
   }
+
+.container img {
+    width: 100%;
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
