@@ -287,3 +287,6 @@ figcaption {font-size: smaller;}
     grid-gap: 1em;
   }
   
+  figcaption {
+      margin: .5em;
+  }
