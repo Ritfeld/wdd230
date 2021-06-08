@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This page will use optimized images for the layout of this gallery page">
+    <title>Preston Town Page Continued</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/fav.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+
+</head>
+
+<body>
+
+    <header class="logo">
+        <picture>
+            <img src="images/rainbow1.jpg" alt="website logo">
+        </picture>
+        <div class="siteNameMotto">
+            <h1>Rainbow Weather Site</h1>
+
+            <p style="color: whitesmoke "><strong>"Can you see a rainbow in the morning"!</strong></p>
+
+        </div>
+
+        <section class="weathersummary">
+            <div class="myDiv">
+
+            </div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="nav" href="#">&#9776; Menu</a></li>
+            <li><a href="/index.html">Home</a></li>
+
+            <li>
+                <a href="#">Preston</a>
+            </li>
+
+            <li>
+                <a href="#">Soda Springs</a>
+            </li>
+            <li>
+                <a href="#">Fish Haven</a>
+            </li>
+            <li>
+                <li class="active">
+                <a href="stormcenter.html" class="active"> Storm Center</a>
+            </li>
+           
+            <li>
+                <a href="#">Gallery</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Storm Center, Report Form</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">Full Name* <input type="text" name="fullname" pattern="[^\s][A-z0-9À-ž\s]{5,}" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Zipcode* <input type="number" name="zipcode" required></label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="stormInfo">Date <input type="date" name="stormDate"></label>
+                <label class="stormInfo">Type <input list="stype" name="stormType">
+                    <datalist id="stype">
+                        <option value="Vulcano">
+                        <option value="Storm Weather">
+                        <option value="Water Golf">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+                </label>
+                <label class="rate">Select Storm Severity (1 - 10) &nbsp;<br>
+                    <input type="range" name="severity" id="rating" value="5" min="1" max="10" step="1"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                </label>
+                <label class="rate">
+                    The storm severity is level <span id="ratingvalue">5</span>.
+                </label>
+    
+    
+                <label class="stormInfo">Region
+                    <select name="regions">
+                        <option value="" disabled selected>Select Region</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodasprings">Soda Springs</option>
+                        <option value="fishhaven">Fish Haven</option>
+                    </select>
+                </label>
+            </fieldset>
+    
+            <fieldset>
+                <Legend>Additional Information</Legend>
+                <label class="danger">Are You In Danger?</label>
+                <label class="addInfo"><input type="radio" name="danger" value="yes"> Yes</label>
+                <label class="addInfo"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                <label class="addInfo"><input type="radio" name="danger" value="no"> No</label><br>
+                <label class="addComment">Additional Comments<textarea name="comment"
+                        placeholder="Enter additional comments here . . ."></textarea></label>
+            </fieldset>
+    
+            <input type="submit" value="Report A Storm" class="submitBtn">
+        </form>
+    
+    
+    </main>
+    <footer>
+        <p> &copy; <span id="theyear"></span> | Willem J Ritfeld | Paramaribo | Suriname |</p>
+        <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a>
+        <p>Last Modified: <span id="lastmod"></span></p>
+        <p>Last Visited: <span id="lastvisited"></span> days ago</p>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/imagehandling.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>
