@@ -63,10 +63,13 @@
     <main>
         <h2 class="main_city">Preston Idaho</h2>
         <div class="herodiv">
+            <picture>
+                <source media="(max-width: 360px)" srcset="images/image_franklinOriginal.jpeg">
+                <source media="(max-width: 660px)" srcset="images/image_medium.jpeg ">
+                <img src="images/image_large.jpeg" alt="franklin">
 
-            <img src="images/image_franklinOriginal.jpeg" sizes="100vw" srcset="images/image_small.jpeg 200w,
-                  images/image_medium.jpeg 500w,
-                  images/image_large.jpeg  800w" alt="preston6 image">
+            </picture>
+
 
             <div class="stats"></div>
             <div class="stats">
@@ -78,7 +81,7 @@
                         <p class="label">Humidity:23%</p>
                         <p class="value">Wind Speed:<span id="windSpeed">5</span> mph </p>
                         <p class="value">Wind Chill:<span id="windchill"></span>&deg;F</p>
-                  </div>
+                    </div>
                 </section>
             </div>
         </div>
@@ -205,4 +208,5 @@
     <script src="js/index.js"></script>
     <script src="js/windchill.js"></script>
 </body>
+
 </html>
