@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="The purpose of this page is for the user to report a storm or unusual weather event in his or her travel area.">
+    <meta name="description"
+        content="The purpose of this page is for the user to report a storm or unusual weather event in his or her travel area.">
     <title>Storm Center Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -52,10 +53,10 @@
                 <a href="#">Fish Haven</a>
             </li>
             <li>
-                <li class="active">
+            <li class="active">
                 <a href="stormcenter.html" class="active"> Storm Center</a>
             </li>
-           
+
             <li>
                 <a href="#">Gallery</a>
             </li>
@@ -68,12 +69,13 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label class="top">Full Name* <input type="text" name="fullname" pattern="[^\s][A-z0-9À-ž\s]{5,}" required></label>
+                <label class="top">Full Name* <input type="text" name="fullname" pattern="[^\s][A-z0-9À-ž\s]{5,}"
+                        required></label>
                 <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
                 <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                 <label class="top">Zipcode* <input type="number" name="zipcode" required></label>
             </fieldset>
-    
+
             <fieldset>
                 <legend>Storm Information</legend>
                 <label class="stormInfo">Date <input type="date" name="stormDate"></label>
@@ -94,8 +96,8 @@
                 <label class="rate">
                     The storm severity is level <span id="ratingvalue">5</span>.
                 </label>
-    
-    
+
+
                 <label class="stormInfo">Region
                     <select name="regions">
                         <option value="" disabled selected>Select Region</option>
@@ -105,7 +107,7 @@
                     </select>
                 </label>
             </fieldset>
-    
+
             <fieldset>
                 <Legend>Additional Information</Legend>
                 <label class="danger">Are You In Danger?</label>
@@ -115,11 +117,11 @@
                 <label class="addComment">Additional Comments<textarea name="comment"
                         placeholder="Enter additional comments here . . ."></textarea></label>
             </fieldset>
-    
+
             <input type="submit" value="Report A Storm" class="submitBtn">
         </form>
-    
-    
+
+
     </main>
     <footer>
         <p> &copy; <span id="theyear"></span> | Willem J Ritfeld | Paramaribo | Suriname |</p>
@@ -129,7 +131,7 @@
     </footer>
     <script src="js/index.js"></script>
     <script src="js/windchill.js"></script>
-   
+
 </body>
 
 </html>
