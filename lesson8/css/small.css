@@ -393,10 +393,6 @@ form input.button {
      border: 7px;
 }
 
-form input.button:hover {
-    cursor: pointer;
-}
-
 form label.top input:required {
    border-left: red solid 6px;
 }

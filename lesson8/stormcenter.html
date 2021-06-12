@@ -61,7 +61,7 @@
 
     <main>
         <h2>Storm Center, Report Form</h2>
-        <form method="get" action="thanks.html">
+        <form action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
                 <label class="top">Full Name* <input type="text" name="fullname" pattern="[^\s][A-z0-9À-ž\s]{5,}"
@@ -86,9 +86,10 @@
                         <option value="Thunderstorm"></option>
                         <option value="Tornado"></option>
                     </datalist>
-                <label class="rate" for="rating">Select The Storm Severity Level (1 - 10): &nbsp;&nbsp;&nbsp;</label>
-                <input class="range" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" output="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                <span id="ratingvalue">5</span>
+                <label class="rate" for="rating">Select The Storm Severity Level (1 - 10): &nbsp;&nbsp;&nbsp;
+                <input class="range" type="range" id="range" value="5" min="1" max="10" step="1" list="tickmarks" output="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="rangeNum">5</span>
+                </label>
 
                 <datalist id="tickmarks">
                     <option value="0">
@@ -103,34 +104,26 @@
                     <option value="9">
                     <option value="10">
                     </datalist>
-
-
-                <label class="storminfo">Which Region are you Located
+                     <label class="storminfo">Which Region are you Located
                     <select class="storminfo" name="regions">
                         <option value="disabled" selected ="">---Select The Region---</option>
                         <option value="Preston">Preston</option>
-                        <option value="Sodasprings">Soda Springs</option>
+                        <option value="Soda Springs">Soda Springs</option>
                         <option value="Fishhaven">Fish Haven</option>
                     </select></label>
                     <label class="storminfo">Are You In Danger?</label>
-            </fieldset>
-
-            <fieldset>
-                <Legend>Additional Information</Legend>
-                
+            
                 <label class="storminfo"><input class="r" type="radio" name="answer" value="yes"> Yes.</label>
                 <label class="storminfo"><input type="radio" name="answer" value="maybe"> Maybe.</label>
                 <label class="storminfo"><input type="radio" name="answer" value="no"> No.</label>
-                <label class="addComment">Additional Comments<textarea name="comment"
-                    placeholder="Enter comments here . . ."></textarea></label>
             </fieldset>
             <fieldset>
+            
                <legend>Your Opinions Are Important To Us</legend>
                 <label class="storminfo">Leave Your Comments
                 <textarea name="comments" cols="30" rows="10"></textarea></label> 
             </fieldset>
-
-            <input class="button" type="submit" value="Report A Storm Center Form">
+          <input class="button" type="submit" value="Report A Storm Center Form">
         </form>
       </main>
 
