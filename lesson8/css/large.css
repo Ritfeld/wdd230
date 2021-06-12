@@ -23,9 +23,12 @@
 }
 
 /*--------------------------------------MAIN-----------------------------*/
+
+
+
 form label.top input, form label.top select  {
     height: 64px;
-    width: 96%;
+    width: 90%;
     max-width: 100rem;
     display: block;
     border-radius: 4px;
