@@ -3,7 +3,7 @@ section {
     border: 1px solid rgb(231, 231, 231);
     margin: 10px;
     padding: 25px;
-    background-color: rgb(250, 233, 210);
+    background-color: lightseagreen;
 }
 div.cards {
     display: block;
