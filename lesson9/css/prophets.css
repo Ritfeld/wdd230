@@ -1,15 +1,14 @@
-
 section {
-    border: 1px solid rgb(231, 231, 231);
+    border: 1px solid red;
     margin: 10px;
     padding: 25px;
     background-color: lightseagreen;
 }
 div.cards {
     display: block;
-    background-color: white;
+    background-color: whitesmoke;
     box-shadow: 0 0 15px #00264d;
-    background-color: rgb(247, 247, 247);
+    background-color: lightgrey;
     padding: 10px;
     margin: 0 10px 50px 10px;
 }
@@ -21,7 +20,7 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 25px;
-    color: rgb(75, 49, 0);
+    color: darksalmon;
 }
 
 h2 {
@@ -29,14 +28,14 @@ h2 {
     text-align: center;
     padding: 5px 0 10px 0;
     margin: 0;
-    color: rgb(110, 73, 5);
+    color: lightyellow;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin: 2px 0 2px 0;
-    color: rgb(75, 49, 0);
+    color: wheat;
 }
 
 img {
@@ -52,10 +51,10 @@ img {
 
 footer {
     text-align: center;
-    color: rgb(114, 74, 1);
+    color: limegreen;
 }
 
-@media only screen and (min-width: 749px) {
+@media only screen and (min-width: 32.5em) {
     div.cards {
         display: flex; 
         flex-wrap: wrap;
@@ -64,7 +63,7 @@ footer {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 64em) {
  
     div.cards {
         display: flex; 

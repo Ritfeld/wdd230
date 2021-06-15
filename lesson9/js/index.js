@@ -16,3 +16,8 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
   const d = new Date();
   document.querySelector("#theyear").textContent=d.getFullYear();
   document.querySelector("#lastmod").textContent=document.lastModified;
+
+  const range = document.querySelector('#range');
+
+
+  range.addEventListener('input', () => { document.getElementById('rangeNum').innerHTML = range.value; });
