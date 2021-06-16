@@ -5,7 +5,8 @@ section {
     background-color: lightseagreen;
 }
 div.cards {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
     background-color: whitesmoke;
     box-shadow: 0 0 15px #00264d;
     background-color: lightgrey;
@@ -14,9 +15,10 @@ div.cards {
 }
 
 
+
 h1 {
     font-weight: bold;
-    font-family: 'Trirong', serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     margin: 0;
     padding: 25px;
@@ -24,7 +26,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Trirong', serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     padding: 5px 0 10px 0;
     margin: 0;
@@ -45,7 +47,7 @@ img {
     box-shadow: 0 0 20px #00264d;
     margin-bottom: 5px;
     margin-top: 20px;
-    max-width: 280px;
+    max-width: 100%;
 
 }
 
@@ -56,19 +58,19 @@ footer {
 
 @media only screen and (min-width: 32.5em) {
     div.cards {
-        display: flex; 
+    grid-template-columns: 1fr 1fr;
         flex-wrap: wrap;
         justify-content: center;
-        max-width: 767px;
+        max-width: 100%;
     }
 }
 
 @media only screen and (min-width: 64em) {
  
     div.cards {
-        display: flex; 
+        grid-template-columns: 1fr 1fr 1fr; 
         flex-wrap: wrap;
         justify-content: center;
-        max-width: 1475px;
+        max-width: 100%;
     }
 }

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This home page will include a section on general information about your three towns.">
+    <title>The Weather Site Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/fav.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+
+</head>
+
+<body>
+
+    <header class="logo">
+        <picture>
+            <img src="images/rainbow1.jpg" alt="website logo">
+        </picture>
+        <div class="siteNameMotto">
+            <h1>Rainbow Weather Site</h1>
+
+            <p style="color: whitesmoke "><strong>"Can you see a rainbow in the morning"!</strong></p>
+
+        </div>
+
+        <section class="weathersummary">
+            <div class="myDiv">
+
+            </div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="nav" href="#">&#9776; Menu</a></li>
+            
+            <li class="active">
+                <a href="index.html" class="active">Home</a>
+            </li>
+
+            <li>
+                <a href="#">Preston</a>
+            </li>
+
+            <li>
+                <a href="#">Soda Springs</a>
+            </li>
+            <li>
+                <a href="#">Fish Haven</a>
+            </li>
+            <li>
+                <a href="#">Storm Center</a>
+            </li>
+            <li>
+                <a href="#">Gallery</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h2>The Weather Site Home Page</h2>
+        <div class="homeArticle">
+
+        <picture>
+            <source media="(min-width: 650px)" srcset="https://i.pinimg.com/originals/90/96/b7/9096b7283c50f2872b908bd9729caadf.jpg">
+            <source media="(min-width: 465px)" srcset="https://i.pinimg.com/originals/90/96/b7/9096b7283c50f2872b908bd9729caadf.jpg">
+            <img src="images/9096b7283c50f2872b908bd9729caadf3small.jpg" alt="wheater home" style="width: auto;">
+        </picture>
+        <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
+                justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper
+                nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
+                laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+                nisi. Nam eget dui.</p>
+        </div>
+
+        <div class="towns">
+            <section>
+                <div class="towndata">
+                    <h2>Fish Haven</h2>
+                    <h3>This is Fish Haven</h3>
+                    <p>Year Founded: 1864</p>
+                    <p>Current Population: 501</p>
+                    <p>Average Rainfall: 14.2 inches</p>
+                </div>
+                <img src="images/fish-haven.png" alt="photo of Fish Haven">
+            </section>
+
+            <section>
+                <div class="towndata">
+                    <h2>Preston</h2>
+                    <h3>Home of Napoleon Dynamite</h3>
+                    <p>Year Founded: 1866</p>
+                    <p>Current Population: 5204</p>
+                    <p>Average Rainfall: 16.65 inches</p>
+                </div>
+                        <img src="images/Pedro-House-Napoleon-Dynamite.jpg" alt="property of Napoleon Dynamite">
+            </section>
+
+            <section>
+                <div class="towndata">
+                    <h2>Soda Spring</h2>
+                    <h3>Historic Oregon Trail Oasis</h3>
+                    <p>Year Founded: 1858</p>
+                    <p>Current Population: 2985</p>
+                    <p>Average Rainfall: 15.75 inches</p>
+                </div>
+                <img src="images/soda-springs.jpg" alt="photo of soda-springs" class="townimage">
+            </section>
+        </div>
+
+
+       
+        <div class="wireframe">
+            <a href="images/small-wireframe.JPG">small wireframe viewport</a>
+            <br>
+
+            <a href="images/medium-wireframe.JPG">medium vwireframe viewport</a>
+            <br>
+
+            <a href="images/large-wireframe.JPG">large wireframe viewport</a>
+            <br>
+            <br>
+        </div>
+    </main>
+    <footer>
+        <p> &copy; <span id="theyear"></span> | Willem J Ritfeld | Paramaribo | Suriname |</p>
+        <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a>
+        <p>Last Modified: <span id="lastmod"></span></p>
+        <p>Last Visited: <span id="lastvisited"></span> days ago</p>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/imagehandling.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>
