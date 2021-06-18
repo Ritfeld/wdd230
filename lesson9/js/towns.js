@@ -12,8 +12,7 @@ fetch(requestURL)
     for (let i = 0; i <towns.length; i++ ) {
         if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") { 
         
-        let town = document.createElement('section');
-        let data = document.createElement('div');
+        let data = document.createElement('section');
         let h2 = document.createElement('h2');
         let h3 = document.createElement('h3');
         let p2 = document.createElement('p');
@@ -30,17 +29,16 @@ fetch(requestURL)
         image.setAttribute('src', "images/" + towns[i].photo);
         image.setAttribute('alt', "photo of "+ towns[i].name);
         image.setAttribute('class', 'townimage');
-        data.setAttribute('class', 'towndata');
+    
 
         data.appendChild(h2);
         data.appendChild(h3);
         data.appendChild(p2);
         data.appendChild(p3);
         data.appendChild(p4);
-        town.appendChild(data);
-        town.appendChild(image)
+        data.appendChild(image)
 
-        document.querySelector('div.towns').appendChild(town);
+        document.querySelector('div.data').appendChild(data);
         
     }
     }
