@@ -1,88 +1,57 @@
-@media only screen and (min-width: 40em) {
-    header img {
-        width: 85%;
+@media only screen and (min-width: 35em) {
+    .logo {
+      font-size: 1.6rem;
+      padding-left: 18%;
     }
-
-    nav li a {
-        padding: 12px 1px;
+    .logo img {
+      max-width: 5rem;
     }
-
+    .siteNameMotto h1 {
+      margin-bottom: 0;
+    }
+    .siteNameMotto p {
+      font-size: 40%;
+      margin-top: -1%;
+      display: block;
+    }
+    .ham {
+      display: none;
+    }
     nav ul {
-        display: flex;
+      display: flex;
     }
-
-    nav li a {
-        text-align: center;
-
-
+    nav ul li {
+      display: block;
+      flex: 1 1 100%;
     }
     .navigation li:first-child {
-        display: none;
+      display: none;
     }
-
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
+    .what img {
+      float: right;
+      width: 40%;
     }
-    
-      .wsummary {
-      font-size: 1.5vw;
+    .map {
+      display: flex;
     }
-    .forecastContainer {
-        display: block;
-        text-align: center;
-        margin: 20px 20px 50px 20px;
+    iframe {
+      width: 400px;
     }
-
-    .forecastContainer h3{
-        margin: 0;
+    .contact-info {
+      margin: 0;
     }
-
-    .forecast {
-        max-width: 500px;
-        display: grid;
-        grid-template-columns: auto auto auto auto auto;
-        margin: 0px auto;
-        padding: 15px;
+    .towns-info section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
-
-    .days {
-        background-color: rgb(102, 138, 37);
-        color: black;
+    section:nth-child(even) img {
+      grid-column: 1;
     }
-
-    .precip {
-        border-right: 1px solid darkgrey;
-        border-left: 1px solid dodgerblue;
-        padding: 30px;
+    section:nth-child(even) .data {
+      grid-column: 2;
+      grid-row: 1;
     }
-
-    .temp {
-        border-bottom: 1px solid skyblue;
-        border-right: 1px solid red;
-        border-left: 1px solid blanchedalmond;
+    .towns-info img {
+      height: 100%;
     }
-
-    .article img{
-        width: 30%;
-        float: right;
-        margin: 0 0 0 2%;
-    }
-
-.map {
-    display: block;
-}
-
-
-}
-
-main {
-    width: 150%;
-    margin: 0 auto;
-}
-
-&media (min-width: 720px)
-form label.top input, form label.top select  {
-    font-size: 2.5rem;
-
-}
+  }
