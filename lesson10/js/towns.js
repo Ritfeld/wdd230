@@ -40,7 +40,7 @@ fetch(requestURL)
         town.appendChild(data);
         town.appendChild(image)
 
-        document.querySelector('div.towns-info').appendChild(town);
+        document.querySelector('div.towns').appendChild(town);
         
     }
     }
