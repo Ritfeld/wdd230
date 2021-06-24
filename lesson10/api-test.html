@@ -4,81 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="This home page will include a section on general information about the three towns.">
+    <meta name="description"
+        content="Open weather map API Test" />
     <title>OpenWeatherMap.org API Test Page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../images/fav.ico">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-
-
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/weatherapi.js"></script>
 </head>
 
 <body>
+    <h1>OpenWeatherMap.org API Test</h1>
 
-    <header class="logo">
-        <picture>
-            <img src="images/rainbow1.jpg" alt="website logo">
-        </picture>
-        <div class="siteNameMotto">
-            <h1>OpenWeatherMap.org API Test</h1>
+    <p>
+        The current Temperature in Preston, Idaho is
+        <span id="temperature"></span>&deg; F
+    </p>
+    <hr />
+    <p>Image Icon Path Test: <span id="imagesrc"></span> &nbsp;
+        <img src="" alt="" id="icon"></p>
 
-            <p style="color: whitesmoke "><strong>"Can you see a rainbow in the morning"!</strong></p>
+    <script src="js/weatherapi.js"></script>
 
-        </div>
 
-        <section class="weathersummary">
-            <div class="myDiv">
 
-            </div>
-        </section>
-    </header>
-    <nav>
-        <ul class="navigation">
-            <li><a class="nav" href="#">&#9776; Menu</a></li>
-            
-            <li>
-                <a href="#">Home</a>
-            </li>
-
-            <li>
-                <a href="#">Preston</a>
-            </li>
-
-            <li>
-                <a href="#">Soda Springs</a>
-            </li>
-            <li>
-                <a href="#">Fish Haven</a>
-            </li>
-            <li>
-                <a href="#">Storm Center</a>
-            </li>
-            <li>
-                <a href="#">Gallery</a>
-            </li>
-
-        </ul>
-    </nav>
-
-    <main>
-    
-        <p>The current temperature in Preston, Idaho is <span id="current-temp"></span>&deg; F</p>
-        <hr>
-        <p>Image Icon Path Test: <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></p>
-        
-
-    </main>
-    
-    <footer>
-        <p> &copy; <span id="theyear"></span> | Willem J Ritfeld | Paramaribo | Suriname |</p>
-        <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a
-
-        <script src="js/weatherapi.js"></script>
-    </footer>
 </body>
 
 </html>
