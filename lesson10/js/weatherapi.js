@@ -10,7 +10,6 @@ fetch(apiURL)
     const temperature = document.querySelector('#temperature');
     temperature.textContent = jsObject.main.temp.toFixed(0);
     const currently = document.querySelector('#currently');
-    const desc = jsObject.weather[0].description;
     currently.innerHTML = '<strong>${desc.toUpperCase()}</strong>';
 
     document.getElementById('current-temp').textContent = jsObject.main.temp;
