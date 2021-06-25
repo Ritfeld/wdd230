@@ -1,7 +1,7 @@
 let cityId = 5604473;
 let appid = 'e954957c737b89d0338f8fd5f015fe9d';
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=e954957c737b89d0338f8fd5f015fe9d";
+const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=e954957c737b89d0338f8fd5f015fe9d";
 
 fetch(apiURL)
   .then((response) => response.json())
