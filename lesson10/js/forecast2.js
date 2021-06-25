@@ -17,7 +17,7 @@ fetch(apiURL)
     fiveDayForcast.forEach( x => {
         let d = new Date(x.dt_txt);
         console.log(d);
-        document.getElementById('day' + day).textContent = dayofWeek[d.getDay()];
+        document.getElementById('dayofWeek${day+1}').textContent = dayofWeek[d.getDay()];
         document.getElementById('forecast${day+1}').textContent = x.main.temp;
         day++;
     });
