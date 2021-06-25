@@ -18,7 +18,7 @@ fetch(apiURL)
         let d = new Date(x.dt_txt);
         console.log(d);
         document.getElementById('day' + day).textContent = dayofweek[d.getDay()];
-        day++
+        day++;
     })
     const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
     const desc = jsObject.weather[0].description;  // note how we reference the weather array
