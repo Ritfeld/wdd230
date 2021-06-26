@@ -2,7 +2,7 @@ let cityId = 5604473;
 let appid = 'e954957c737b89d0338f8fd5f015fe9d';
 
 const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=e954957c737b89d0338f8fd5f015fe9d";
-
+console.log('test');
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -17,13 +17,14 @@ fetch(apiURL)
     fiveDayForcast.forEach( x => {
         let d = new Date(x.dt_txt);
         console.log(d);
-        document.getElementById('dayofWeek${day+1}').textContent = dayofWeek[d.getDay()];
-        document.getElementById('forecast${day+1}').textContent = x.main.temp;
+        console.log(`dayofWeek${day+1}`)
+       document.getElementById(`dayofWeek${day+1}`).textContent = dayofWeek[d.getDay()];
+        document.getElementById(`forecast${day+1}`).textContent = x.main.temp;
+        const imagesrc = 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png';  // note the concatenation
+        const desc = x.weather[0].description;  // note how we reference the weather array
+        document.getElementById(`fivedayimg${day + 1}`).setAttribute('src', imagesrc);  // focus on the setAttribute() method
+        document.getElementById(`fivedayimg${day + 1}`).setAttribute('alt', desc);
         day++;
     });
-    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-    const desc = jsObject.weather[0].description;  // note how we reference the weather array
-    document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-    document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-    document.getElementById('icon').setAttribute('alt', desc);
+   
 });
