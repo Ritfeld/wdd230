@@ -12,8 +12,8 @@ fetch(apiURL1)
     const windspeed = document.querySelector('#windSpeed' );
     const humidity = document.querySelector('#hum' );
     temperature.textContent = jsObject.main.temp;
-    description.textContent = jsObject.main.temp;
-    windspeed.textContent = jsObject. speedvalue.toFixed(0);
+    description.textContent = jsObject.weather[0].description;
+    windspeed.textContent = jsObject.wind.speed;
     humidity.textContent = jsObject.main.humidity;
 
   });

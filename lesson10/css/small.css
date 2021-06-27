@@ -311,3 +311,12 @@
   grid-row: 2/3;
   grid-column: 1/2;
 }
+
+div class forecast-info {
+display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  font-size: 1em;
+  margin: auto 20px;
+}
