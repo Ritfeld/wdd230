@@ -313,7 +313,9 @@
 }
 
 .forecast-info {
-  display: flex;
-  flex-flow: nowrap;
-  justify-content: space-around;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+align-items: center;
+  
 }
