@@ -74,6 +74,15 @@
       background-color: #aaaaaa77;
       
     }
+
+    .forecast-info ul {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      margin: 0px auto;
+      padding: 15px;
+      
+      }
+      
   }
 
 

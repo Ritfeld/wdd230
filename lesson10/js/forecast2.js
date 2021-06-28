@@ -13,7 +13,7 @@ fetch(apiURL)
     const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     //reduce the list array to the five forecast.....40
     const fiveDayForcast = jsObject.list.filter( forecast => forecast.dt_txt.includes('18:00:00'));
-    //console.log(fiveDayForcast);
+    console.log(fiveDayForcast);
 
     // loop through each of the forecast days
     fiveDayForcast.forEach( x => {
