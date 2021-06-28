@@ -1,8 +1,7 @@
 let cityId = 5604473;
 let appid = 'e954957c737b89d0338f8fd5f015fe9d';
 
-const apiURL = `api.openweathermap.org/data/2.5/forecast?id=${cityId}&appid=${appid
-}`;
+const apiURL = `https://api.openweathermap.org/data/2.5/forecast?id=${cityId}&units=imperial&appid=${appid}`;
 
 //console.log('test');
 fetch(apiURL)
