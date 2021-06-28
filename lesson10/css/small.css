@@ -312,8 +312,9 @@
   grid-column: 1/2;
 }
 
+
 .forecast-info {
 display: flex;
-justify-content: space-between; 
+justify-content: space-between;
 }
 
