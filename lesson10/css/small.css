@@ -317,13 +317,3 @@
 display: flex;
 justify-content: space-between;
 }
-
-.forecast-info {
-  background-color: white;
-  margin-bottom: 20px;
-  display: none;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  text-align: center;
-  color: rgb(76, 129, 22);
-}
-
