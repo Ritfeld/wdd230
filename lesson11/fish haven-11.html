@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This page  will employ a third-party API to supply the current weather conditions of Preston Idaho .">
+        <title>Preston Idaho</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="../images/fav.ico">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    
+    
+    </head>
+    
+    <body>
+        <div class="content">
+    <header class="logo">
+        <a href="https://ritfeld.github.io/wdd230/lesson9/index.html"> 
+                <img src="images/rainbow1.jpg" alt="website logo"></a>
+    
+            <div class="siteNameMotto">
+                <h1>Rainbow Weather Site</h1>
+                <p style="color: whitesmoke "><strong>"Can you see a rainbow in the morning"!</strong></p>
+           </div>
+        </header>
+    
+          
+        <nav>
+            <ul class="navigation">
+                <li><a class="nav" href="#">&#9776; Menu</a></li>
+                
+                <li>
+                    <a href="#">Home</a>
+                </li>
+    
+                <li>
+                    <a href="#">Preston</a>
+                </li>
+    
+                <li class="active"></li>
+                    <a href="soda springs-11.html">Soda Springs</a>
+                </li>
+                <li class="active"></li>
+                    <a href="soda springs-11.html">Fish Haven</a>
+                </li>
+                <li>
+                    <a href="#">Storm Center</a>
+                </li>
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+    
+            </ul>
+        </nav>
+    
+        <main>
+            <div class="eventlist"></div>
+            <h2 class="townName">Preston Idaho</h2>
+            <div class="banner-box">
+                <img src="images/prestonhero-large.jpg" alt="picture of preston idaho south" style="width: 100%;" >
+                <div class="weather-info">
+                    <h3>Weather Summary</h3>
+                    <p><strong>Currently: </strong><span id="desc"></span></p>
+                    <p><strong>Temperature: </strong><span id="temp"></span> °F</p>
+                    <p><strong>Wind Chill: </strong><span class="windChill"></span></p>
+                    <p><strong>Humidity: </strong><span id="hum"></span>%</p>
+                    <p><strong>Wind Speed: </strong><span id="windSpeed"></span> mph</p>
+                </div>
+            </div>
+            <h3>Five Day Forecast</h3>
+            <section class="forecast-info">
+                <ul>
+                <li><h3 id="dayofWeek1"></h3><img  id="fivedayimg1" src="" alt="placeholder"><p id="forecast1" ></p></li>
+                <li><h3 id="dayofWeek2"></h3><img id="fivedayimg2" src="" alt="placeholder"><p id="forecast2" ></p></li>
+                <li><h3 id="dayofWeek3"></h3><img id="fivedayimg3" src="" alt="placeholder"><p id="forecast3" ></p></li>
+                <li><h3 id="dayofWeek4"></h3><img id="fivedayimg4" src="" alt="placeholder"><p id="forecast4" ></p></li>
+                <li><h3 id="dayofWeek5"></h3><img id="fivedayimg5" src="" alt="placeholder"><p id="forecast5" ></p></li>
+            </ul>
+            </section>
+            <section class="visitors-info"><br>
+                <h3>Visitors Info</h3>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="images/visitorsinfo.jpg">
+                    <img src="images/visitorsinfo.jpg" alt="blue fountain relax">
+                </picture>
+                <p>Need a place to get away? We Hope all of you had a wonderful holiday season! 
+
+                    It’s COLD outside, down right bone chilling! 
+                    
+                    I’ve lived in many winter climates and know the weather could be worse like Minneapolis, Chicago, Cincinnati or New York.
+                    
+                    But see, we’re spoiled here. 10 months of the year you can be outside. 
+                    
+                    Not Today!
+                    
+                    I’m thinking March is not too far away and we’ll be able to enjoy much warmer weather.
+                    
+                    The photo was taken at Lakeside on Preston, a luxury neighborhood in West Plano.
+                    
+                    Stay warm and be happy we only have a couple months of winter to persevere.!
+                </p>
+        </section>
+       </main>
+    
+    
+              <section class="map">
+                <img src="images/Preston_Quadrangle-3.jpg" alt="map of preston idaho">
+                <div class="visitors-info">
+                <h3>Contact Information</h3>
+                <div class="location">
+                    <img src="images/location.jpg" alt="location icon">
+                    <p>345 S 5th Rexburg, ID 83440</p>
+                </div>
+    
+                <div class="phone">
+                    <img src="images/phone.jpg" alt="phone icon">
+                    <p>(597) 863-8455</p>
+                </div>
+    
+                <div class="address">
+                    <p>Address: 2575 W 5700 S</p>
+                    <p>Wellsville, Ut 84339</p>
+                </div>
+    
+    
+                <div class="email">
+                    <img src="images/mail.jpg" alt="email icon">
+                    <p>rainbowweather site.com</p>
+                </div>
+    
+           
+                <div class="images">
+                    <a href="https://www.facebook.com/"><img src="images/Facebook.jpg" alt="social media logo"></a>
+                    <a href="https://twitter.com"><img src="images/Twitter.jpg" alt="social media logo"></a>
+                    <a href="https://linkedin.com"><img src="images/Linkedin1.jpg" alt="linkedin logo"></a>
+                    <a href="https://youtube.com"><img src="images/youtube-128.jpg" alt="YouTube icon logo"></a>
+                </div>
+            </div>
+        </section>
+        
+    
+        </div>
+        <footer>
+            <p> &copy; <span id="theyear"></span> | Willem J Ritfeld | Paramaribo | Suriname |</p>
+            <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a>
+            <p>Last Updated : <span id="lastmod"></span></p>
+        </footer>
+        <script src="js/index.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="js/forecast2.js"></script>
+        <script src="js/weatherapi.js"></script>
+    </body>
+    </html>

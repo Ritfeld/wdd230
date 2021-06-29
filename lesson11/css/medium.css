@@ -1,0 +1,82 @@
+@media only screen and (min-width: 35em) {
+    .logo {
+      font-size: 1.6rem;
+      padding-left: 18%;
+    }
+    .logo img {
+      max-width: 5rem;
+    }
+    .siteNameMotto h1 {
+      margin-bottom: 0;
+    }
+    .siteNameMotto p {
+      font-size: 40%;
+      margin-top: -1%;
+      display: block;
+    }
+    .ham {
+      display: none;
+    }
+    nav ul {
+      display: flex;
+    }
+    nav ul li {
+      display: block;
+      flex: 1 1 100%;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+    .what img {
+      float: right;
+      width: 40%;
+    }
+    .map {
+      display: flex;
+    }
+    iframe {
+      width: 400px;
+    }
+    .contact-info {
+      margin: 0;
+    }
+    .towns-info section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    section:nth-child(even) img {
+      grid-column: 1;
+    }
+    section:nth-child(even) .data {
+      grid-column: 2;
+      grid-row: 1;
+    }
+    .towns-info img {
+      height: 100%;
+    }
+
+    .banner-box {
+      display: grid;
+    }
+
+    .banner-box img {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      z-index: 0;
+    }
+
+    .banner-box div {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      z-index: 1;
+      width: 20em;
+      height: 20em;
+      background-color: #aaaaaa77;
+      
+    }
+ 
+    
+
+
+
+
