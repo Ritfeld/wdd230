@@ -316,4 +316,5 @@
 .forecast-info ul {
 display: flex;
 justify-content: space-between;
+background-color: #bbb;
 }
