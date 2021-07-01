@@ -340,6 +340,7 @@ iframe {
   display: flex;
   justify-content: space-between;
   background-color: #bbb;
+  list-style: none; 
 }
 
 
