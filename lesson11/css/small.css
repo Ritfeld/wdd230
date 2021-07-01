@@ -255,7 +255,7 @@
   }
   
   .map {
-    background-color: #36454f;
+    background-color: rgb(206, 180, 180)
     display: grid;
     grid-template-columns: 1fr;
     padding: 2%;
