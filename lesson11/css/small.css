@@ -255,7 +255,7 @@
   }
   
   .map {
-    background-color: silver;
+    background-color: #bbb;
     display: grid;
     grid-template-columns: 1fr;
     padding: 2%;
