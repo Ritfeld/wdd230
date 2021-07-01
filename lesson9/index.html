@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="This home page will include a section on general information about the three towns.">
+    <meta name="description"
+        content="This home page will include a section on general information about the three towns.">
     <title>The Weather Site Home Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -19,136 +20,137 @@
 
 <body>
     <div class="content">
-<header class="logo">
-    <a href="https://ritfeld.github.io/wdd230/lesson9/index.html"> 
-            <img src="images/rainbow1.jpg" alt="website logo"></a>
-
-        <div class="siteNameMotto">
-            <h1>Rainbow Weather Site</h1>
-            <p style="color: whitesmoke "><strong>"Can you see a rainbow in the morning"!</strong></p>
-       </div>
-    </header>
-
-      
-    <nav>
-        <ul class="navigation">
-            <li><a class="nav" href="#">&#9776; Menu</a></li>
-            
-            <li class="active">
-                <a href="index.html" class="active">Home</a>
-            </li>
-
-            <li>
-                <a href="#">Preston</a>
-            </li>
-
-            <li>
-                <a href="#">Soda Springs</a>
-            </li>
-            <li>
-                <a href="#">Fish Haven</a>
-            </li>
-            <li>
-                <a href="#">Storm Center</a>
-            </li>
-            <li>
-                <a href="#">Gallery</a>
-            </li>
-
-        </ul>
-    </nav>
-
-    <main>
-        <div class="slideshow-container">
-        <h2>The Weather Site Home Page</h2>
-      
-            <div class="mySlides fade">
-            <div class="numbertext"> 1 / 3</div>
-           <img src="images/prestonhome.jpg" alt="preston home logo" style="width: 100%;">
-        <div class="text">Preston</div>
-       </div>
-
-        <div class="mySlides fade">
-                <div class="numbertext"> 2 / 3</div>
-               <img src="images/preston1large.jpg" alt="Field in Soda Spring" style="width: 100%;">
-            <div class="text">Soda Spring</div>
+        <header class="logo">
+            <a href="https://ritfeld.github.io/wdd230/lesson9/index.html">
+                <img src="images/rainbow1.jpg" alt="website logo"></a>
             </div>
 
+            <div class="siteNameMotto">
+                <h1>Rainbow Weather Site</h1>
+                <p style="color: whitesmoke "><strong>"Can you see a rainbow in the morning"!</strong></p>
+            </div>
+        </header>
 
-            <div class="mySlides fade"></div>
-                    <div class="numbertext"> 3 / 3</div>
-                   <img src="images/prestonphoto1.jpg" alt="Waterpark in Fish Heaven" style="width: 100%;">
-                <div class="text">Fish Haven</div>
+
+        <nav>
+            <ul class="navigation">
+                <li><a class="nav" href="#">&#9776; Menu</a></li>
+
+                <li class="active">
+                    <a href="index.html" class="active">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">Preston</a>
+                </li>
+
+                <li>
+                    <a href="#">Soda Springs</a>
+                </li>
+                <li>
+                    <a href="#">Fish Haven</a>
+                </li>
+                <li>
+                    <a href="#">Storm Center</a>
+                </li>
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <main>
+            <div class="slideshow-container">
+                <h2>The Weather Site Home Page</h2>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"> 1 / 3</div>
+                    <img src="images/prestonhome.jpg" alt="preston home logo" style="width: 100%;">
+                    <div class="text">Preston</div>
                 </div>
 
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
-            <br>
-                
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
+                <div class="mySlides fade">
+                    <div class="numbertext"> 2 / 3</div>
+                    <img src="images/preston1large.jpg" alt="Field in Soda Spring" style="width: 100%;">
+                    <div class="text">Soda Spring</div>
+                </div>
+
+
+                <div class="mySlides fade"></div>
+                <div class="numbertext"> 3 / 3</div>
+                <img src="images/prestonphoto1.jpg" alt="Waterpark in Fish Heaven" style="width: 100%;">
+                <div class="text">Fish Haven</div>
             </div>
-      
-           
-       
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+
+
             <div class="towns-container">
                 <h2 class="towns-container-title">Town Info</h2>
                 <div class="towns-info"></div>
             </div>
-          </main>
+        </main>
 
-      <div class="map-grid">
-          <div class="map">
-            <img src="images/Map_of_Prestonhome.png" alt="map of preston home">
-           
-        
+        <div class="map-grid"></div>
+            <div class="map">
+                <img src="images/Map_of_Prestonhome.png" alt="map of preston home">
 
-        <div class="preston">
-            <h3>Contact Information</h3>
-            <div class="location">
-                <img src="images/location.jpg" alt="location icon">
-                <p>345 S 5th Rexburg, ID 83440</p>
+
+
+                <div class="preston">
+                    <h3>Contact Information</h3>
+                    <div class="location">
+                        <img src="images/location.jpg" alt="location icon">
+                        <p>345 S 5th Rexburg, ID 83440</p>
+                    </div>
+
+                    <div class="phone">
+                        <img src="images/phone.jpg" alt="phone icon">
+                        <p>(597) 863-8455</p>
+                    </div>
+
+                    <div class="address">
+                        <p>Address: 2575 W 5700 S</p>
+                        <p>Wellsville, Ut 84339</p>
+                    </div>
+
+
+                    <div class="email">
+                        <img src="images/mail.jpg" alt="email icon">
+                        <p>rainbowweather site.com</p>
+                    </div>
+
+
+                    <div class="images">
+                        <a href="https://www.facebook.com/"><img src="images/Facebook.jpg" alt="social media logo"></a>
+                        <a href="https://twitter.com"><img src="images/Twitter.jpg" alt="social media logo"></a>
+                        <a href="https://linkedin.com"><img src="images/Linkedin1.jpg" alt="linkedin logo"></a>
+                        <a href="https://youtube.com"><img src="images/youtube-128.jpg" alt="YouTube icon logo"></a>
+                    </div>
+                </div>
+
+
             </div>
-
-            <div class="phone">
-                <img src="images/phone.jpg" alt="phone icon">
-                <p>(597) 863-8455</p>
-            </div>
-
-            <div class="address">
-                <p>Address: 2575 W 5700 S</p>
-                <p>Wellsville, Ut 84339</p>
-            </div>
-
-
-            <div class="email">
-                <img src="images/mail.jpg" alt="email icon">
-                <p>rainbowweather site.com</p>
-            </div>
-
-       
-            <div class="images">
-                <a href="https://www.facebook.com/"><img src="images/Facebook.jpg" alt="social media logo"></a>
-                <a href="https://twitter.com"><img src="images/Twitter.jpg" alt="social media logo"></a>
-                <a href="https://linkedin.com"><img src="images/Linkedin1.jpg" alt="linkedin logo"></a>
-                <a href="https://youtube.com"><img src="images/youtube-128.jpg" alt="YouTube icon logo"></a>
-            </div>
-        </div>
-    
-
-    </div>
-    <footer>
-        <p> &copy; <span id="theyear"></span> | Willem J Ritfeld | Paramaribo | Suriname |</p>
-        <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a>
-        <p>Last Updated : <span id="lastmod"></span></p>
-    </footer>
-    <script src="js/index.js"></script>
-    <script src="js/towns.js"></script>
-    <script src="js/imagehandling.js"></script>
-    <script src="js/gallery.js"></script>
+            <footer>
+                <p> &copy; <span id="theyear"></span> | Willem J Ritfeld | Paramaribo | Suriname |</p>
+                <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a>
+                <p>Last Updated : <span id="lastmod"></span></p>
+            </footer>
+            <script src="js/index.js"></script>
+            <script src="js/towns.js"></script>
+            <script src="js/imagehandling.js"></script>
+            <script src="js/gallery.js"></script>
 </body>
 
 </html>
