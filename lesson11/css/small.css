@@ -86,8 +86,7 @@
     font-family: "Poppins", sans-serif;
     max-width: 960px;
     margin: 0 auto;
-    margin-bottom: 20px;
-    list-style: none; 
+    margin-bottom: 20px; 
   }
   /*hero images*/
   /* Slideshow container */
@@ -318,4 +317,5 @@
 display: flex;
 justify-content: space-between;
 background-color: #bbb;
+list-style: none; 
 }
