@@ -272,7 +272,7 @@ footer {
 }
 
 .map {
-  background-color: seagreen;
+  background-color: whitesmoke;
   display: grid;
   grid-template-columns: 1fr;
   padding: 2%;
