@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="In this assignment, you will add a new page to the weather site, the Gallery page where you will use a layout 
+    method of your choice and lazy load the images.">
+    <title>Preston Town Page Continued</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/fav.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+
+</head>
+
+<body>
+
+    <header class="logo">
+        <picture>
+            <img src="images/rainbow1.jpg" alt="website logo">
+        </picture>
+        <div class="siteNameMotto">
+            <h1>Rainbow Weather Site</h1>
+
+            <p style="color: whitesmoke "><strong>"Can you see a rainbow in the morning"!</strong></p>
+
+        </div>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="nav" href="#">&#9776; Menu</a></li>
+            <li><a href="/index.html">Home</a></li>
+
+            <li>
+                <a href="#">Preston</a>
+            </li>
+
+            <li>
+                <a href="#">Soda Springs</a>
+            </li>
+            <li>
+                <a href="#">Fish Haven</a>
+            </li>
+            <li>
+                <a href="#">Storm Center</a>
+            </li>
+            <li class="active">
+                <a href="gallery.html" class="active">Gallery</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="main_city">The Gallery Page</h2>
+        <div class="container">
+
+            <figure>
+                <img class="norm" data-src="images/weatherimage1.jpg" src="images/placeholder1.jpg"
+                    alt="The morning horizon sky">
+                <figcaption>The morning horizon sky</figcaption>
+            </figure>
+
+            <figure>
+                <img class="norm" data-src="images/weatherimage11.jpg" src="images/placeholder1.jpg"
+                    alt="Clearly cloudy Weather">
+                <figcaption>A sunny day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="norm" data-src="images/weatherimage3.jpg" src="images/placeholder1.jpg"
+                    alt="Hurricane heat waves">
+                <figcaption>Hurricane heat waves</figcaption>
+            </figure>
+
+            <figure>
+                <img class="norm" data-src="images/weatherimage9.jpg" src="images/placeholder1.jpg"
+                    alt="A nice weather">
+                <figcaption>A nice weather</figcaption>
+            </figure>
+
+            <figure>
+                <img class="norm" data-src="images/weatherimage5.jpg" src="images/placeholder1.jpg"
+                    alt="sunshine Weather rainbow">
+                <figcaption>sunshine Weather rainbow</figcaption>
+            </figure>
+
+            <figure>
+                <img class="norm" data-src="images/weatherimage6.jpg" src="images/placeholder1.jpg" alt="A sunny day">
+                <figcaption>Clearly cloudy weather</figcaption>
+            </figure>
+
+
+            <figure>
+                <img class="norm" data-src="images/weatherimage8.jpg" src="images/placeholder1.jpg"
+                    alt="Cool breeze nature park">
+                <figcaption>Cool breeze park</figcaption>
+            </figure>
+
+            <figure>
+                <img class="norm" data-src="images/weatherimage2.jpg" src="images/placeholder1.jpg"
+                    alt="Snowing Weather">
+                <figcaption>Lightning Weather</figcaption>
+            </figure>
+
+            <figure>
+                <img class="norm" data-src="images/weatherimage7.jpg" src="images/placeholder1.jpg"
+                    alt="Walking in snowing Weather">
+                <figcaption>Walking in snowing Weather</figcaption>
+            </figure>
+
+        </div>
+    </main>
+    <footer>
+        <p> &copy; <span id="theyear"></span> | Willem J Ritfeld | Paramaribo | Suriname |</p>
+        <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a>
+        <p>Last Modified: <span id="lastmod"></span></p>
+        <p>Last Visited: <span id="lastvisited"></span> days ago</p>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/imagehandling.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>
