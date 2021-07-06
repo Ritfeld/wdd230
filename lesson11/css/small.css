@@ -1,369 +1,414 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-    /*background-image: url(../images/01d.png);*/
-  }
-  
-  .content {
-    margin: 0 auto;
-  }
-  
-  .siteName:before {
-    color: rgb(76, 129, 22);
-    content: "WEA";
-    letter-spacing: 4px;
-  }
-  .siteName {
-    margin-top: 1.3rem;
-  }
-  .siteNameMotto {
-    margin: 1rem 0;
-  }
-  
-  .siteNameMotto p {
-    display: none;
-  }
-  
-  .logo {
-    background-color: #bbb;
-    display: flex;
-    align-items: center;
-    padding-left: 5%;
-  }
-  
-  .logo img {
-    max-width: 3rem;
-  }
-  
-  nav {
-    background-color: wheat;
-    text-align: center;
-    margin: 0 auto;
-  }
-  
-  .navigation li:first-child {
-    display: block;
-  }
-  .active {
-    background-color: #bbb;
-    color: #36454f;
-  }
-  
-  nav li {
-    display: none;
-  }
-  
-  .responsive li {
-    display: block;
-  }
-  
-  nav ul {
-    display: block;
-    list-style-type: none;
-    padding: 0;
-    align-items: center;
-    margin: 0;
-  }
-  
-  nav ul li a {
-    display: block;
-  
-    text-decoration: none;
-    padding: 0.75rem;
-    color: rgb(76, 129, 22);
-    white-space: nowrap;
-  }
-  
-  nav a:hover {
-    background-color: #bbb;
-    color: #36454f;
-  }
-  
-  main {
-    font-family: "Poppins", sans-serif;
-    max-width: 960px;
-    margin: 0 auto;
-    margin-bottom: 20px; 
-  }
-  /*hero images*/
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .activate,
-  .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {
-      opacity: 0.4;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes fade {
-    from {
-      opacity: 0.4;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  /*end hero*/
-  /*what section*/
-  .what {
-    padding: 2%;
-  }
-  .what img {
-    width: 70%;
-    margin-right: 2%;
-    margin-left: 2%;
-    box-shadow: 0px 0px 18px #929191;
-  }
-  .what p {
-    font-size: 1.2rem;
-    line-height: 2rem;
-  }
-  /*towns info*/
-  .towns-container {
-    background-color: #bbb;
-    padding: 2%;
-  }
-  .towns-container-title {
-    margin-top: 0;
-  }
-  .towns-info {
-    display: grid;
-    grid-template-columns: 1fr;
-    color: rgb(47, 65, 116);
-  }
-  .towns-info section {
-    text-align: center;
-    background-color: rgb(255, 245, 211);
-    margin: 5%;
-    border-radius: 10px;
-    padding: 2%;
-  }
-  .towns-info img {
-    width: 100%;
-    height: auto;
-  }
-  .towns-info h2 {
-    border-radius: 10px;
-    margin: 0;
-    margin-bottom: 2%;
-    padding-top: 4%;
-    text-shadow: 2px 2px rgb(222, 244, 252);
-    font-size: 2rem;
-  }
-  .towns-info .p1 {
-    margin-top: 0;
-    font-style: italic;
-    font-weight: bold;
-  }
-  .towns-info .p2 {
-    margin-top: 0;
-  }
-  
-  .logo,
-  footer {
-    background-color: silver;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 0.75rem;
-  }
-  
-  .map {
-    background-color: rgb(206, 180, 180)
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 2%;
-    justify-content: space-evenly;
-  }
-  iframe {
-    grid-row: 2/3;
-    width: 100%;
-    margin-bottom: 2%;
-  }
-  .contact-info {
-    grid-row: 1/2;
-    margin: auto;
-    margin-bottom: 2%;
-  }
-  .location,
-  .phone,
-  .email {
-    display: flex;
-  }
-  .location img,
-  .phone img,
-  .email img {
-    width: 30px;
-    margin-bottom: 0.8rem;
-  }
-  .location p,
-  .phone p,
-  .email p {
-    margin: 0;
-  }
-  .social img {
-    margin-right: 0.8rem;
-  }
-
-.visitors-info {
-  display: grid;
-  grid-template-columns: auto 1fr;
-
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 100%;
+  line-height: 2.5;
+  color: black;
 }
 
-.visitors-info h3 {
-  grid-row: 1/2;
-  grid-column: 1/3;
+header,
+nav {
+  margin: 0 auto;
 }
 
-.visitors-info picture {
-  grid-row: 2/3;
-  grid-column: 2/3;
-}
-
-.visitors-info p {
-  grid-row: 2/3;
-  grid-column: 1/2;
-}
-
-
-.forecast-info ul {
-display: flex;
-justify-content: space-between;
-background-color: #bbb;
-list-style: none; 
-}
-
-.eventlist {
-  height: 50px;  
-  overflow: hidden;
-  position: relative;
-  }
-  .eventlist p {
-  font-size: 1em;
-  color: blueviolet;
-  position: absolute;
+main,
+footer {
   width: 100%;
-  height: 100%;
-  margin: 0;
-  line-height: 50px;
-  text-align: center;
-  /* Starting position */
-  -moz-transform:translateX(100%);
-  -webkit-transform:translateX(100%);  
-  transform:translateX(100%);
-  /* Apply animation to this element */  
-  -moz-animation: eventlist 15s linear infinite;
-  -webkit-animation: eventlist 15s linear infinite;
-  animation: eventlist 15s linear infinite;
-  }
-  /* Move it (define the animation) */
-  @-moz-keyframes eventlist {
-  0%   { -moz-transform: translateX(100%); }
-  100% { -moz-transform: translateX(-100%); }
-  }
-  @-webkit-keyframes eventlist {
-  0%   { -webkit-transform: translateX(100%); }
-  100% { -webkit-transform: translateX(-100%); }
-  }
-  @keyframes eventlist {
-  0%   { 
-  -moz-transform: translateX(100%); /* Firefox bug fix */
-  -webkit-transform: translateX(100%); /* Firefox bug fix */
-  transform: translateX(100%);     
-  }
-  
-  100% { 
-  -moz-transform: translateX(-100%); /* Firefox bug fix */
-  -webkit-transform: translateX(-100%); /* Firefox bug fix */
-  transform: translateX(-100%); 
-  }
-  }
+  margin: 0 auto;
+}
 
-  
+nav {
+  padding: 0;
+  font-size: .75em;
+  background-color: lightgrey;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+nav li a {
+  display: block;
+  text-align: left;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+header,
+footer {
+  text-align: center;
+  padding: .5rem;
+}
+
+header {
+  line-height: .5;
+  background-color: rgb(51, 117, 184);
+  color: rgb(97, 247, 11);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+}
+
+.motto {
+  font-style: italic;
+  font-size: 1.5em;
+  padding: .2em;
+  margin: 0;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: lightseagreen;
+  color: whitesmoke;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  color: red;
+  background-color: whitesmoke;
+}
+
+a.active {
+  background-color: rgb(204, 172, 172);
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 10px;
+}
+
+h1 h2 h3 {
+  color: black;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Trirong', serif;
+  line-height: 100%;
+  margin: .5rem;
+
+}
+
+h2 {
+  font-size: 1.75em;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+}
+
+h3 {
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+}
+
+h4,
+h5 {
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: whitesmoke;
+}
+
+p {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0.2rem;
+  color: black;
+}
+
+.stats p {
+  color: yellow;
+}
+
+.contentbox {
+  display: block;
+  margin: 10px auto;
+  border: 1px dashed #0059b3;
+  padding: 15px;
+  font-style: italic;
+}
+
+.responsive li {
+  display: block;
+}
+
+
+.active {
+  background-color: rgb(216, 187, 187);
+}
+
+.herodiv {
+  margin: 10px auto;
+  position: relative;
+  width: 100%;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.stats {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background: seagreen;
+  border: 1px solid none;
+  padding: 1.5rem;
+  box-shadow: 0 0 30px rgb(175, 167, 167);
+  opacity: .9;
+}
+
+.myDiv {
+  border: 0px outset whitesmoke;
+  background-color: transparent;
+  text-align: center;
+}
+
+div navigation {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.map-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  justify-content: start;
+  grid-gap: 1em;
+
+}
+
+.map {
+  grid-row: 1/-1;
+  margin-bottom: 30px;
+
+
+}
+
+.images {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-top: 5px;
+
+
+}
+
+.images img {
+  width: 10%;
+  margin: 0 10px;
+}
+
+.information {
+  margin-left: 20%;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+.article {
+  width: 100%;
+}
+
+.location img {
+  width: 10%;
+}
+
+.email img {
+  width: 10%;
+}
+
+.phone img {
+  width: 10%;
+}
+
+.preston {
+  margin-left: 35%;
+}
+
+.container {margin: 1rem auto; display:grid; grid-template-columns: 1fr 1fr 1fr; max-width: 1048px;}
+
+img { width: 250px; height: auto; margin: .5rem;}
+figcaption {font-size: smaller;}
+/* hover effect */
+.norm:hover {box-shadow: 0 0 50px #333;}
+/* rounded corners - boxmodel */
+.rocorn {border-radius: 5px 150px;}
+/* simple opacity */
+.opac {opacity: .5;}
+.blur {filter: blur(1px) grayscale(75%);}
+.object {width: 100%; height: 100px ; object-fit: cover;}
+.shape-outside {border-radius: 100px; width:35%; margin: 0 3em .5em 0; float:left; shape-outside: circle();}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin: 32px 0 40px 0;
+  grid-gap: 1em;
+}
+
+figcaption {
+    margin: .5em;
+}
+
+.container img {
+  width: 100%;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+/*--------------------Form-------------------------*/
+form fieldset {
+  margin: 2rem 0;
+ border: 1px solid #445ba9;
+ border-radius: 10px;
+ padding: 5rem 2%;
+}
+
+form legend {
+   color: #445ba9;
+   margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+form label.top, form div {
+   display: block;
+   padding-top: 1rem;
+   color: #9c2c13;
+   font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    height: 44px;
+    width: 100%;
+    max-width: 100rem;
+   display: block;
+   border-radius: 4px;
+   color: #555;
+  font-size: 2rem;
+  padding: .75rem;
+  font-size: 2rem;
+background-color: rgba(0,0,0,0.1);
+
+}
+
+form label.storminfo input {
+ display: block;
+ margin-top: 1.5rem;
+ height: 20px;
+ padding: .75rem 0;
+ color: #555;
+}
+
+
+form label.storminfo {
+  margin-top: 3rem;
+}
+
+form label.storminfo {
+  font-size: 1rem;
+}
+
+form input range {
+  width: 70%;
+  max-width: 70rem;
+  color: #555;
+}
+
+form label.rate {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+#ratingvalue {
+margin: 0 15px;
+color: #555;
+font-size: 3rem;
+font-weight: bold;
+}
+
+textarea {
+  height: 20rem;
+  width: 100%;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form input.button {
+   border: none;
+   background-color: #9c2c13;
+   font-family: 'Poppins', sans-serif;
+   color: white;
+   border-radius: 1rem;
+   padding: 1rem 1.5rem;
+   margin: 0 0 2rem 2%;
+   width: 96%;
+   max-width: 20rem;
+   font-weight: 700;
+   border: 7px;
+}
+
+form label.top input:required {
+ border-left: red solid 6px;
+}
+
+form label.top input, required:valid {
+      border-left: green solid 6px;
+}
+
+/*---------------------------------MAIN--------------------------------*/
+form label.sbs {
+  padding: .4rem 0;
+}
+
+/*-------------------------------FOOTER---------------------------*/
+footer {
+background-color: #ddd;
+ padding: .5rem 2%;
+text-align: center; 
+}
