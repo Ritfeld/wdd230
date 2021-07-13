@@ -69,6 +69,19 @@ nav ul li a.active {
     float: left;
   }
 
+.column {
+  float: left;
+  width: 50%;
+  
+}
+
+.map {
+  float: right;
+  padding: 0;
+  margin: 2px;
+
+}
+
   main figure.myphoto img {width: 100%;}
   main figure.myphoto figcaption {text-align: center; font-size: .75rem;}
 
