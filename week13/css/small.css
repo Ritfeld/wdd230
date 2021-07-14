@@ -40,7 +40,17 @@ width: 100%;
   clear:left;
   float:right;
   margin: 10px;
+  line-height: normal;
 }
+
+.local {
+  clear:right;
+  float:left;
+  margin: 10px;
+  line-height: normal;
+}
+
+
 
 nav ul {
   list-style-type: none;
@@ -87,6 +97,14 @@ nav ul li a.active {
   
 }
 
+.media {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: left;
+  padding: 20px 0;
+  width: 75%;
+}
+
 .map {
   background-color: whitesmoke;
   display: grid;
@@ -100,7 +118,7 @@ nav ul li a.active {
   background-color: whitesmoke;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 
 }
@@ -109,6 +127,10 @@ nav ul li a.active {
   background-color: whitesmoke;
   display: flex;
   justify-content: flex-end;
+}
+
+.weapon {
+  float: none;
 }
 
 .weather-info {
