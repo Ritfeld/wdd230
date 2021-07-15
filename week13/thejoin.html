@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="This page contains information about the benefit of joining the chamber and a membership application form.">
+    <meta name="author" content="Willem J Ritfeld">
+    <title>The Join Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+        <figure class="logo">
+            <img src="images/chamberlogo.png" alt="logo" srcset="images/chamberlogo1.png 1x, images/chamberlogo2.png 2x,
+        images/chamberlogo3.png 3x">
+        </figure>
+        <h1>CHAMBER OF COMMERCE & INDUSTRY</h1>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="">
+            <li><a href="index13.html">Home</a></li>
+            <li><a href="thecity.html">The City Page</a></li>
+            <li><a class="active" href="thejoin.html">The Join Page</a></li>
+            <li><a href="thedirectory.html">The Directory Page</a></li>
+            <li><a href="thecontact.html">The Contact Page</a></li>
+        </ul>
+    </nav>
+    <h2 class="townName">The Benefit of Joining The Chamber</h2>
+    <p><strong>What does Chamber of Commerce stand for?</strong></p>
+    <p>Chamber of Commerce and Industry stands for to promote opportunities in entrepreneurship and thereby promote
+        economic growth in Suriname.</p>
+
+    <p><strong>What services offer Chamber of Commerce & Industry to citizens?</strong></p>
+    <p>You can contact the KKF for all information regarding
+        the Trade Register, stock exchanges, Suriname Directory, the 'One Stop Window', and Entrepreneurship Support
+        Center (ESC).
+        <br>
+        <br>
+        The activities that the KKF undertakes include
+        organizing business
+        evenings. Organizing discussion evenings.
+        Giving presentations, training and education.
+        Organizing fairs.</p>
+    <p><strong>What is the biggest event organized by Chamber of Commerce & Industry?</strong></p>
+    <p>The Jaarbeurs is organized annually from the end of November to the beginning of December. All sectors
+        participate in this successful business fair, both locally and internationally. This is the largest annual
+        general fair in the Caribbean, attracting 100,000 visitors.</p>
+    <p>Another important fair held by the KKF is the De AGRO - ICT - MADE IN SURINAME FAIR organized annually from late
+        April to early May. Participants are: Agriculture, horticulture and forestry, as well as flower, plant, fruit,
+        livestock and beekeeping. Service (financial, ICT, transport, real estate, research, information, training,
+        etc.), supply and processing companies. Industry (food and beverage, building materials, furniture, chemical,
+        metal, clothing and packaging), mining, tourism, fishing and fish processing, construction, art, home crafts and
+        industry. Dealers' of production resources (machinery, rolling stock, computers, factory installations,
+        equipment, instruments, etc.). </p>
+    <br>
+    <p><strong>Our focus is to make the Surinamese community aware of the uppertunity they can achieve by filling out
+            this application form</strong></p>
+    <figure class="myphoto"></figure>
+    <div class="banner-box">
+
+
+
+
+
+        <!-- CONTENT HERE -->
+
+        <main>
+            <h2>The Join Page Report Form</h2>
+            <form action="thanks.html">
+                <fieldset>
+                    <legend>Report Information</legend>
+                    <label class="top">First Name* <input type="text" name="firstname" pattern="[^\s][A-z0-9À-ž\s]{5,}"
+                            required></label>
+                    <label class="top">Last Name* <input type="text" name="lastname" pattern="[^\s][A-z0-9À-ž\s]{5,}"
+                            required></label>
+                    <label class="top">Title <input type="title" name="n/v"></label>
+
+                    <label class="top">Email* <input type="email" name="email" placeholder=""></label>
+                    <label class="top">Cell Phone <input type="tel" name="phone" placeholder=""></label>
+                    <label class="top">Business Name* <input type="name" name="n/v" required></label>
+                    <label class="top">Business Address <input type="adress" name="n/v"></label>
+                    <label class="top">Business Website <input type="name" web="n/v"></label>
+                    <label class="top">Business Description <input type="name" name="n/v"></label>
+                    <label class="top">Memberschip Level <input type="number" name="n/v"></label>
+
+                    <label class="rate">memberschip level selection (1 - 4): &nbsp;&nbsp;&nbsp;
+                        <input class="range" type="range" id="range" value="2" min="1" max="4" step="1">
+                        <span id="rangeNum">2</span>
+                    </label>
+
+                    <label class="storminfo">
+                        <select class="storminfo" name="regions">
+                            <option value="disabled" selected="">---There are Four Options---</option>
+                            <option value="Non-profit ($100)">Non-profit</option>
+                            <option value="Bronze ($200)">Bronze</option>
+                            <option value="Silver ($400)">Silver</option>
+                            <option value="Gold ($1000)">Gold</option>
+                        </select></label><br>
+
+
+
+                </fieldset>
+
+        </main>
+
+
+
+
+
+
+
+        <!-- FOOTER HERE -->
+
+        <footer>
+            <p> &copy; <span id="theyear"></span> | Willem J Ritfeld | Paramaribo | Suriname |</p>
+            <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a>
+            <p>Last Updated : <span id="lastmod"></span></p>
+        </footer>
+        <br>
+        <br>
+
+        <script src="js/script.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="js/forecast2.js"></script>
+        <script src="js/weatherapi12.js"></script>
+</body>
+
+</html>
