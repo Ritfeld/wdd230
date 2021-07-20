@@ -38,6 +38,13 @@ width: 100%;
 
 }
 
+.training {
+  clear: none;
+  float: center;
+  margin: 10px;
+  line-height: normal;
+}
+
 .staatsolie {
   clear:left;
   float:right;
@@ -52,6 +59,10 @@ width: 100%;
   line-height: normal;
 }
 
+.social {
+  flex-direction: row-reverse;
+  
+}
 
 
 nav ul {
@@ -280,3 +291,33 @@ border-left: red solid 6px;
 form label.top input, required:valid {
     border-left: green solid 6px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: center;
+  width: 50%;
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.attent {background-color: #FF0000
+  ;} 
+.attent:hover {background-color: #46a049;}
