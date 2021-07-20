@@ -52,6 +52,20 @@ width: 100%;
   line-height: normal;
 }
 
+.weapon {
+  clear:right;
+  float:left;
+  margin: 10px;
+  line-height: normal;
+}
+
+.join {
+  clear: none;
+  float: center;
+  margin: 10px;
+  line-height: normal;
+}
+
 .local {
   clear:right;
   float:left;
@@ -174,9 +188,7 @@ nav ul li a.active {
   justify-content: flex-end;
 }
 
-.weapon {
-  float: none;
-}
+
 
 .weather-info {
   position: absolute;
@@ -297,11 +309,11 @@ form label.top input, required:valid {
 }
 
 /* Create two equal columns that floats next to each other */
-.column {
+.join {
   float: center;
   width: 50%;
   padding: 10px;
-  height: 700px; /* Should be removed. Only for demonstration */
+  height: 500px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
