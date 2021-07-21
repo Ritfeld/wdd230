@@ -57,32 +57,32 @@
     <main class="clearfix">
         <h3>Contact Form</h3>
         <div class="container">
-           
+
             <form action="/action_page.php">
                 <label class="top">Full Name* <input type="text" name="fullname" pattern="[^\s][A-z0-9À-ž\s]{5,}"
                         required></label>
                 <label class="top">Last Name* <input type="text" name="fullname" pattern="[^\s][A-z0-9À-ž\s]{5,}"
                         required></label>
                 <label class="top">Email* <input type="email" name="email" placeholder="..."></label>
-            
 
-        
-                   
-                    <datalist id="country">
-                    <option class="country" value="country"></option>
-                        <option value="suriname">Suriname</option>
-                        <option value="brazil">Brazilie</option>
-                        <option value="france">Frankrijk</option>
-                        <option value="guyana">Guyanna</option>
-                        <option value="usa">United States</option>
-                    </datalist>
-                
 
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.."
-                        style="height:200px"></textarea>
 
-                    <input type="submit" value="Submit">
+
+                <datalist id="country">
+                    <option class="country" value="" disabled="" selected="">--Select the storm type--</option>
+                    <option value="suriname">Suriname</option>
+                    <option value="brazil">Brazilie</option>
+                    <option value="france">Frankrijk</option>
+                    <option value="guyana">Guyanna</option>
+                    <option value="usa">United States</option>
+                </datalist>
+
+
+
+                <label for="subject">Comment:</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
             </form>
         </div>
     </main>
