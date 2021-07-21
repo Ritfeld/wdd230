@@ -74,7 +74,8 @@ width: 100%;
 }
 
 .social {
-  flex-direction: row-reverse;
+  display: flex;
+
   
 }
 
@@ -154,6 +155,10 @@ nav ul li a.active {
   float: left;
   width: 50%;
   
+}
+
+.contactone {
+  width: 100%;
 }
 
 .media {
@@ -358,4 +363,9 @@ form label.top input, required:valid {
 .employee {
   background-color: white;
   margin: 10px;
+}
+
+.contactfooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
