@@ -1,140 +1,52 @@
+fetch("./business.json")
+    .then((response) => {
+        return response.json();
+    })
+    .then((jsObject) => {
+        console.log(jsObject);
+        let parent = document.querySelector("div.parent");
+        for (let i of Object.keys(jsObject)) {
+            let business = document.createElement('div')
+            let BName = document.createElement('h2');
+            BName.textContent = i ;
+            business.appendChild(BName)
+            business.classList.add('business');
+      console.log(i);
+
+            for (let j of jsObject[i]) {
+                let div = document.createElement('div')
+                let Name = document.createElement('h2');
+                let Address = document.createElement('h2');
+                let Phone = document.createElement('h2');
+                console.log(Name)
+
+                Name.classList.add("emp-name");
+                Address.classList.add('addr');
+                Phone.classList.add('phone');
+                div.classList.add('employee');
+                
 
 
-fetch("./js/business.json")
-.then((response) => {
-    return response.json()
-})
-.then((jsObject) => {
-    console.log(jsObject)
-    let business=document.querySelector('.business');
 
-    for (let j of jsObject["Business Goup A"]){
-        const div = document.createElement('div');
-        const h3 = document.createElement('h3');
-        const p = document.createElement('p');
-        const p2 = document.createElement('p');
-        
 
-        h3.textContent =j.FirstName + ' ' + j.address.streetAddress ;
-        p.textContent = j.lastName + ' ' + j;
-        p2.textContent = j.phoneNumbers[0].number;
-        
+                Name.textContent = "Name" + j.FirstName + " " + j.lastName;
+                Address.textContent = "Address" + j.address.streetAdrees + " " + j.address.city + " " + j.address.postalCode + " " + j.address.state;;
+                for (let p = 0; p < j.phoneNumbers.length; p++) {
+                    Phone.innerHTML += `Type: ${j.phoneNumbers[p].type} Number: ${j.phoneNumbers[p].number}<br>`;
+                }
 
-        div.appendChild(h3);
-        div.appendChild(p);
-        div.appendChild(p2);
-        business.appendChild(div);
-     console.log(j)
+
+                div.appendChild(Name);
+                div.appendChild(Address);
+                div.appendChild(Phone);
+
+                //address
+
+
+
+                business.appendChild(div);
+            }
+            parent.appendChild(business);
+        }
     }
-
-    for (let j of jsObject["Business Goup B"]){
-        const div = document.createElement('div');
-        const h3 = document.createElement('h3');
-        const p = document.createElement('p');
-        const p2 = document.createElement('p');
-        
-
-        h3.textContent =j.FirstName + ' ' + j.address.streetAddress ;
-        p.textContent = j.lastName + ' ' + j;
-        p2.textContent = j.phoneNumbers[0].number;
-
-        div.appendChild(h3);
-        div.appendChild(p);
-        div.appendChild(p2);
-        business.appendChild(div);
-     console.log(j)
-    }
-
-    for (let j of jsObject["Business Goup C"]){
-        const div = document.createElement('div');
-        const h3 = document.createElement('h3');
-        const p = document.createElement('p');
-        const p2 = document.createElement('p');
-        
-
-        h3.textContent =j.FirstName + ' ' + j.address.streetAddress ;
-        p.textContent = j.lastName + ' ' + j;
-        p2.textContent = j.phoneNumbers[0].number;
-
-        div.appendChild(h3);
-        div.appendChild(p);
-        div.appendChild(p2);
-        business.appendChild(div);
-     console.log(j)
-    }
-
-    for (let j of jsObject["Business Goup D"]){
-        const div = document.createElement('div');
-        const h3 = document.createElement('h3');
-        const p = document.createElement('p');
-        const p2 = document.createElement('p');
-        
-
-        h3.textContent =j.FirstName + ' ' + j.address.streetAddress ;
-        p.textContent = j.lastName + ' ' + j;
-        p2.textContent = j.phoneNumbers[0].number;
-
-        div.appendChild(h3);
-        div.appendChild(p);
-        div.appendChild(p2);
-        business.appendChild(div);
-     console.log(j)
-    }
-
-    for (let j of jsObject["Business Goup E"]){
-        const div = document.createElement('div');
-        const h3 = document.createElement('h3');
-        const p = document.createElement('p');
-        const p2 = document.createElement('p');
-        
-
-        h3.textContent =j.FirstName + ' ' + j.address.streetAddress ;
-        p.textContent = j.lastName + ' ' + j;
-        p2.textContent = j.phoneNumbers[0].number;
-
-        div.appendChild(h3);
-        div.appendChild(p);
-        div.appendChild(p2);
-        business.appendChild(div);
-     console.log(j)
-    }
-
-    for (let j of jsObject["Business Goup F"]){
-        const div = document.createElement('div');
-        const h3 = document.createElement('h3');
-        const p = document.createElement('p');
-        const p2 = document.createElement('p');
-        
-
-        h3.textContent =j.FirstName + ' ' + j.address.streetAddress ;
-        p.textContent = j.lastName + ' ' + j;
-        p2.textContent = j.phoneNumbers[0].number;
-
-        div.appendChild(h3);
-        div.appendChild(p);
-        div.appendChild(p2);
-        business.appendChild(div);
-     console.log(j)
-    }
-
-    for (let j of jsObject["Business Goup G"]){
-        const div = document.createElement('div');
-        const h3 = document.createElement('h3');
-        const p = document.createElement('p');
-        const p2 = document.createElement('p');
-        
-
-        h3.textContent =j.FirstName + ' ' + j.address.streetAddress ;
-        p.textContent = j.lastName + ' ' + j;
-        p2.textContent = j.phoneNumbers[0].number;
-
-        div.appendChild(h3);
-        div.appendChild(p);
-        div.appendChild(p2);
-        business.appendChild(div);
-     console.log(j)
-
-
-    }
-} 
-);
+    );

@@ -1,0 +1,520 @@
+{
+    "Business Goup A":[
+       {
+          "FirstName":"Baldew",
+          "lastName":"Vinod Sanjay",
+          "gender":"male",
+          "age":38,
+          "address":{
+             "streetAddress":"134 Saramacca",
+             "city":"Wanica Lelydorp",
+             "state":"Suriname",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"59783627627"
+             }
+          ]
+       },
+       {
+          "FirstName":"Jawalapersad",
+          "lastName":"Roedrenath",
+          "gender":"male",
+          "age":32,
+          "address":{
+             "streetAddress":"116 Uitkijk",
+             "city":"Wanica west",
+             "state":"Suriname",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"34907812548"
+             }
+          ]
+       },
+       {
+          "FirstName":"Lee",
+          "lastName":"Tjin Jien Stephen",
+          "gender":"male",
+          "age":29,
+          "address":{
+             "streetAddress":"16 awaradam",
+             "city":"Paramribo zuid",
+             "state":"abrabroki",
+             "postalCode":"n/a"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"34907812548"
+             }
+          ]
+       },
+       {
+          "FirstName":"Salaroe",
+          "lastName":"Naomi Sherida Srijanti",
+          "gender":"fmale",
+          "age":29,
+          "address":{
+             "streetAddress":"8 koningstraat",
+             "city":"Paramribo centrum",
+             "state":"frimang gron",
+             "postalCode":"n/a"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"34907812548"
+             }
+          ]
+       }
+    ],
+    "Business Goup B":[
+       {
+          "FirstName":"Rajiv",
+          "lastName":"Baldew",
+          "gender":"male",
+          "age":33,
+          "address":{
+             "streetAddress":"18 morgenstond",
+             "city":"noord",
+             "state":"Leonsberg",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"597886092356"
+             }
+          ]
+       },
+       {
+          "FirstName":"Dongmao",
+          "lastName":"Lin",
+          "gender":"male",
+          "age":36,
+          "address":{
+             "streetAddress":"21 oost-west verbinding",
+             "city":"east",
+             "state":"commewijne",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"52698733214"
+             }
+          ]
+       },
+       {
+          "FirstName":"Cliff Suraj Sarvankumar",
+          "lastName":"Ramadhin",
+          "gender":"male",
+          "age":29,
+          "address":{
+             "streetAddress":"46 simons polder",
+             "city":"south",
+             "state":"nicherie",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"52444733210"
+             }
+          ]
+       },
+       {
+          "FirstName":"Pierre Fitzgerald",
+          "lastName":"van Zichem",
+          "gender":"male",
+          "age":38,
+          "address":{
+             "streetAddress":"62 zanderij",
+             "city":"south",
+             "state":"wanica",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"444563320198"
+             }
+          ]
+       }
+    ],
+    "Business Goup C":[
+       {
+          "FirstName":"Amar Jeetindra",
+          "lastName":"Randjitsing",
+          "gender":"male",
+          "age":33,
+          "address":{
+             "streetAddress":"78 Bernhard dorp",
+             "city":"south",
+             "state":"wanica",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"444586231047"
+             }
+          ]
+       },
+       {
+          "FirstName":"Royce Patrick",
+          "lastName":"Jie Foeng Sang",
+          "gender":"male",
+          "age":27,
+          "address":{
+             "streetAddress":"148 Leiding",
+             "city":"noord",
+             "state":"paramaribo",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"775623"
+             }
+          ]
+       }
+    ],
+    "Business Goup D":[
+       {
+          "FirstName":"Mohamed Hanief",
+          "lastName":"Ishaak",
+          "gender":"male",
+          "age":36,
+          "address":{
+             "streetAddress":"225 Heiligen weg",
+             "city":"centrum",
+             "state":"paramribo",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"4445632105589"
+             }
+          ]
+       },
+       {
+          "FirstName":"Radjeshkoemar",
+          "lastName":"Nannan",
+          "gender":"male",
+          "age":39,
+          "address":{
+             "streetAddress":"118 zorg en hoop",
+             "city":"centrum",
+             "state":"paramaribo",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"44136589002"
+             }
+          ]
+       },
+       {
+          "FirstName":"Mohamed Mustar",
+          "lastName":"Orie",
+          "gender":"male",
+          "age":43,
+          "address":{
+             "streetAddress":"167 weg naar zee",
+             "city":"kwatta",
+             "state":"zuid",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"444562310889"
+             }
+          ]
+       },
+       {
+          "FirstName":"Jayant Anilkumar",
+          "lastName":"Padarath",
+          "gender":"male",
+          "age":25,
+          "address":{
+             "streetAddress":"132 Livorno",
+             "city":"pontbuiten",
+             "state":"zuid",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"4456231"
+             }
+          ]
+       }
+    ],
+    "Business Goup E":[
+       {
+          "FirstName":"Dennis Don",
+          "lastName":"Chundro",
+          "gender":"male",
+          "age":23,
+          "address":{
+             "streetAddress":"154 meerzorg",
+             "city":"commewijne",
+             "state":"oost-west",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"89996528402"
+             }
+          ]
+       },
+       {
+          "FirstName":"Vellerie P",
+          "lastName":"Aikman",
+          "gender":"fmale",
+          "age":34,
+          "address":{
+             "streetAddress":"129 Hannaslust",
+             "city":"magentaweg",
+             "state":"middenweg",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"96844203358"
+             }
+          ]
+       },
+       {
+          "FirstName":"Nicole Ch",
+          "lastName":"Ritfeld",
+          "gender":"fmale",
+          "age":25,
+          "address":{
+             "streetAddress":"20 Hetalstraat",
+             "city":"Abby",
+             "state":"west paramaribo",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"4562221860"
+             }
+          ]
+       },
+       {
+          "FirstName":"Dwight",
+          "lastName":"Alfred Cedirc",
+          "gender":"male",
+          "age":26,
+          "address":{
+             "streetAddress":"194 Hoogestraat",
+             "city":"centrum",
+             "state":"ondro bong",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"55213698"
+             }
+          ]
+       }
+    ],
+    "Business Goup F":[
+       {
+          "FirstName":"Jerome Ch",
+          "lastName":"Abankie",
+          "gender":"male",
+          "age":35,
+          "address":{
+             "streetAddress":"20 Guno Hoen weg",
+             "city":"Dijkveld",
+             "state":"Domburg",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"88966320"
+             }
+          ]
+       },
+       {
+          "FirstName":"Jeremy Shane",
+          "lastName":"Andries",
+          "gender":"male",
+          "age":22,
+          "address":{
+             "streetAddress":"276 Brownsweg",
+             "city":"Brokopndo",
+             "state":"zuid-west",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"777563200156"
+             }
+          ]
+       },
+       {
+          "FirstName":"Dennis Don",
+          "lastName":"Claus Donnevan",
+          "gender":"male",
+          "age":21,
+          "address":{
+             "streetAddress":"438 niew-aurora",
+             "city":"sipaliwinie",
+             "state":"zuid suriname",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"112458966302"
+             }
+          ]
+       }
+    ],
+    "Business Goup G":[
+       {
+          "FirstName":"Jayant Anilkumar (Chairman)",
+          "lastName":"Padarath",
+          "gender":"male",
+          "age":45,
+          "address":{
+             "streetAddress":"225 villa park",
+             "city":"Groningen",
+             "state":"west",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"55542698122002"
+             }
+          ]
+       },
+       {
+          "FirstName":"Paul Dennis (Vice-Chairman)",
+          "lastName":"de Baas,",
+          "gender":"male",
+          "age":47,
+          "address":{
+             "streetAddress":" noordpool weg",
+             "city":"Indiraghandi weg",
+             "state":"zuid",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"4456321008952"
+             }
+          ]
+       },
+       {
+          "FirstName":"Tjin Jien Stephen",
+          "lastName":"Lee,",
+          "gender":"male",
+          "age":49,
+          "address":{
+             "streetAddress":" waterland",
+             "city":"Paranam",
+             "state":"zuid- west",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"415562300879"
+             }
+          ]
+       },
+       {
+          "FirstName":"Pierre Fitzgerald",
+          "lastName":"Van Zichem,",
+          "gender":"male",
+          "age":42,
+          "address":{
+             "streetAddress":" wit santie",
+             "city":"Cola kreek",
+             "state":"zuid-suriname",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"45233256800"
+             }
+          ]
+       },
+       {
+          "FirstName":" Royce Patrick",
+          "lastName":"Jie Foeng Sang,",
+          "gender":"male",
+          "age":38,
+          "address":{
+             "streetAddress":" Reeberg",
+             "city":"saramacca",
+             "state":"wanica- zuid",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"4445123058900"
+             }
+          ]
+       },
+       {
+          "FirstName":" Dennis Do",
+          "lastName":" Chundro,",
+          "gender":"male",
+          "age":37,
+          "address":{
+             "streetAddress":" afobakka",
+             "city":"Brokopondo",
+             "state":"sipaliwinie",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"5542103899514"
+             }
+          ]
+       },
+       {
+          "FirstName":" Djamiel Mohamed Azaad",
+          "lastName":" Moenne,",
+          "gender":"male",
+          "age":41,
+          "address":{
+             "streetAddress":"awaradam",
+             "city":"Saron",
+             "state":"Surmac",
+             "postalCode":"n/v"
+          },
+          "phoneNumbers":[
+             {
+                "type":"home",
+                "number":"4445662300186"
+             }
+          ]
+       }
+    ]
+ }

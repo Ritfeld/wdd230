@@ -330,6 +330,32 @@ form label.top input, required:valid {
   font-size: 30px;
   cursor: pointer;
 }
-.attent {background-color:  #46a049;}
-  ;} 
-.attent:hover {background-color: #46a049;}
+.attent {background-color:  #FF0000;}
+.attent:hover {background-color:  #3CB371;}
+
+.emp-name {
+  font-size: 15px;
+}
+
+.addr {
+  font-size: 15px;
+}
+
+.phone {
+  font-size: 15px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.business {
+  background-color: green;
+  margin: 10px;
+}
+
+.employee {
+  background-color: white;
+  margin: 10px;
+}
