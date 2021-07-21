@@ -58,37 +58,35 @@
 
         <main>
             <h2>The Join Report Form Page</h2>
-            <form action="thanks.html"></form>
+            <form action="thanks.html">
                 <fieldset>
                     <legend>Report Information</legend>
-                    <label class="top">First Name*  <input type="text" id="fname" name="fname">
-                            </label><br>
+                    <label class="top">First Name*  <input type="text" id="fname" name="fname"></label><br>
                     <label class="top">Last Name*  <input type="text" id="lname" name="lname"></label><br>
                     <label class="top">Title* <input type="text" id="label" name="label"></label>
                     <label class="top">Email* <input type="text" id="email" name="email"></label>
-                    <label class="top">Cell Phone* <input type="text" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                     <label class="top">Business Name* <input type="text" id="bus" name="business"></label><br><br>
                     <label class="top">Business Address* <input type="text" id="addr" name="address"></label><br><br>
                     <label class="top">Business Website* <input type="text" id="Web" name="website" ></label><br><br>
                     <label class="top">Business Description* <input type="text" id="desc" name="description"></label><br><br>
                     <label class="top">Memberschip Level* <input type="text" id="level" name="level"></label><br><br>
-               </fieldset>
-               <fieldset>
-                    <label class="rate">memberschip level selection (1 - 4): &nbsp;&nbsp;&nbsp;
-                        <input class="range" type="range" id="range" value="2" min="1" max="4" step="1">
-                        <span id="rangeNum">2</span>
-                    </label><br>
+                </fieldset> 
             
-                    <label class="storminfo">
-                        <select class="storminfo" name="regions">
+                <datalist id="storminfo">
                             <option value="disabled" selected="">---There are Four Options---</option>
                             <option value="Non-profit ($100)">Non-profit</option>
                             <option value="Bronze ($200)">Bronze</option>
                             <option value="Silver ($400)">Silver</option>
                             <option value="Gold ($1000)">Gold</option>
-                        </select></label><br>
+                    </datalist> 
+                    <label class="rate">memberschip level selection (1 - 4): &nbsp;&nbsp;&nbsp;
+                        <input class="range" type="range" id="range" value="2" min="1" max="4" step="1">
+                        <span id="rangeNum">2</span>
+                    </label><br>       
+                        </label>
                 
-                </fieldset>
+            
         </main>
 
 
