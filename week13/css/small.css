@@ -356,7 +356,9 @@ form label.top input, required:valid {
 }
 
 .business {
-  background-color: #3CB371
+  background-color: #bddaca;
+
+
   ;
   margin: 10px;
 }
