@@ -126,3 +126,10 @@ main {
 .active {
   background-color: lightcoral;
 }
+
+#center {
+	width: 1260px;
+	border: 2px solid none;
+	margin: 0px auto;
+	text-align: left;
+  }
