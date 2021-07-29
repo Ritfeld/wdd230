@@ -129,3 +129,9 @@ footer a,
 nav a {
   font-size: 1em;
 }
+
+#center {
+  width: 960;
+  border: 2px solid red;
+  margin: 0px auto;
+}
